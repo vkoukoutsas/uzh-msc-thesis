@@ -1,0 +1,270 @@
+\appendix
+
+\chapter{Installation and Configuration Guidelines} \label{app:guidelines}
+
+\emph{This is joint text with Simon M{\"u}ller \cite{mueller20}.}
+
+\section{System Requirements}
+
+To facilitate the development of the Swiss Educhain service a server was set up in the internal CSG (Communications Systems Group) infrastructure of the department of Informatics. Swiss Educhain has several dependencies and system requirements, which are explained below:
+
+\begin{description}
+	\itemsep0em
+	\item\textbf{OS Requirements} \hfill \\ A medium-sized Ubuntu server (implementation tested on 4 CPUs 2.4 GHz with 4 Gb of memory), which is capable of running multiple Java instances.
+	\item\textbf{Software Dependencies} \hfill 
+	\begin{description}
+		\itemsep0em
+		\item Zulu Java OpenJDK 8 (tested on version 1.8.0\_232)
+		\item Apache HTTP Server (tested on version 2.4.29)
+		\item Spring Boot (tested on version 2.0.2.RELEASE)
+		\item Shibboleth (tested on version 3.0.4)
+		\item Valid SSL certificate (tested with LetsEncrypt)
+	\end{description}
+\end{description}
+
+\section{Deployment}
+
+The code of Swiss Educhain is based on the Kotlin CorDapp example template provided in \cite{kotlin-cordapp-template}. To build the Swiss Educhain software components, the Gradle build agent is used. Before deployment a PKCS12 (Public-Key Cryptography Standards - 12) certificate needs to be generated based on the valid SSL certificate, instructions on how to create it are given in \cite{java-certificate}. The instructions on how to build the Swiss Educhain code are as follows:
+
+\begin{itemize}
+	\item Corda Nodes:
+	\begin{enumerate}
+		\item Fill the configuration file \texttt{additional.conf} with the correct information. The file is found in the root directory.
+		\item Execute in root directory: \texttt{./gradlew deployNodes}
+		\item JAR, configuration and database files will be created inside \texttt{/build/nodes} folder.
+	\end{enumerate}
+	\item Frontend:
+	\begin{enumerate}
+		\item Fill the configuration file \texttt{application.properties} with the correct information. The file is found in the \texttt{clients/src/main/resources} directory.
+		\item Execute in root directory: \texttt{./gradlew runTemplateServer}
+		\item The \texttt{clients-VERSION.jar} file will be created inside the \texttt{/clients/build/libs} folder. 
+	\end{enumerate}
+\end{itemize}
+
+After successfully building the code, the service can be deployed by following these steps:
+
+\begin{itemize}
+	\item Copy the produced \texttt{clients-VERSION} JAR file to the server.
+	\item Copy the \texttt{nodes} folder containing the two \texttt{corda.jar} files for \texttt{PartyA} and \texttt{Notary} to the server together with the configuration files produced (\texttt{node.conf}, \texttt{persistence.mv} etc.) 
+	\item Execute command \texttt{nohup java -jar corda.jar \&} from the same directory where it was copied to, inside the \texttt{Notary} folder.
+	\item Execute command \texttt{nohup java -jar corda.jar \&} from the same directory where it was copied to, inside the \texttt{PartyA} folder.
+	\item Execute command \texttt{nohup java -jar clients-VERSION.jar \&} from the same directory where it was copied to. The frontend will exit automatically if it doesn't detect any running Corda nodes.
+\end{itemize}
+
+
+\emph{This ends the text jointly written with Simon M{\"u}ller \cite{mueller20}.}
+
+\chapter{Code Repository Structure} \label{app:code-structure}
+
+\emph{This is joint text with Simon M{\"u}ller \cite{mueller20}.}
+
+The following directory tree represents a simplified structure of the Swiss Educhain code that is included with the CD. For the sake of readability, folders and files that are not directly relevant have been left out. \\
+
+
+\dirtree{%
+	.1 educhain-code.
+	.2 clients.
+	.3 src/main.
+	.4 kotlin/ch/educhain.
+	.5 bean.
+	.5 webserver\DTcomment{Folder contains Kotlin code for frontend.}.
+	.4 resources.
+	.5 static.
+	.6 app.js\DTcomment{Frontend JavaScript code.}.
+	.6 index.html\DTcomment{Frontend HTML code.}.
+	.5 application.properties\DTcomment{Properties file for frontend.}.
+	.3 resources.
+	.2 contracts.
+	.3 src/main/kotlin/ch/educhain.
+	.4 contracts\DTcomment{Folder contains the Swiss Educhain contract code.}.
+	.4 states\DTcomment{Folder contains the Swiss Educhain states.}.
+	.2 verification\_frontend\DTcomment{Folder contains the code for the verification frontend.}.
+	.2 workflows.
+	.3 src/main.
+	.4 java/ch/educhain/solidity\DTcomment{Contains the contract wrapper code.}.
+	.4 kotlin/ch/educhain.
+	.5 flows\DTcomment{Contains all the Swiss Educhain flows.}.
+	.5 services\DTcomment{Contains all the Swiss Educhain services.}.
+	.2 additional.conf\DTcomment{Configuration file for Corda node.}.
+	.2 educhainSign.sh\DTcomment{Shell script for offline signing.}.
+}
+
+\emph{This ends the text jointly written with Simon M{\"u}ller \cite{mueller20}.}
+%\section{Shibboleth Installation}
+%
+%The custom Switch Shibboleth v3 package \cite{shibboleth-switch-packages} was installed on Ubuntu 18.04 bionic LTS, below are the extensive installation steps based on the official Switch guide \cite{shibboleth-installation}.
+%
+%\subsubsection{Requirements:}
+%
+%The following requirements must be met to install and operate the Shibboleth Service Provider.
+%
+%\begin{itemize}
+%	
+%	\item \textbf{Apache Webserver} \hfill \\
+%	Because Shibboleth is mostly used for web authentication, a web server is needed.
+%	The Apache2 web server is available in Ubuntu Linux. \\
+%	To install Apache2 at a terminal prompt execute the following command: \hfill \\
+%	\texttt{  sudo apt install apache2}	 \hfill \\
+%	Verify installation: \hfill \\
+%	\texttt{apache2 -v} \hfill \\
+%	For additional details on how to configure the Apache Webserver refer to \cite{apache2-installation-ubuntu}.
+%
+%	\item \textbf{Root Access} \hfill \\
+%	For the following steps it must be possible to execute commands as user with root privileges, e.g. as root user or with the recommended \texttt{sudo}.
+%	
+%	\item \textbf{Remove manually compiled/installed Service Provider} \hfill \\
+%	Before installing the Shibboleth Service Provider 3.0 on the system with the OS packet management system, ensure that there is no manually compiled and installed version of Shibboleth anymore.
+%	
+%\end{itemize}
+%
+%\subsubsection{Recommendations:}
+%
+%The following software is optional but recommended to be installed for installation and operation of the Service Provider.
+%
+%\begin{itemize}
+%	
+%	\item \textbf{NTP} \hfill \\
+%	Servers running Shibboleth must have the system time synchronized in order to avoid clock-skew errors. It is therefore recommended to install \texttt{ntp} or use another time synchronisation mechanism. \\
+%	To install NTP execute in a terminal the command: \\
+%	\texttt{sudo apt-get install ntp} \\
+%	To verify the installation execute the command: \\
+%	\texttt{sntp --version}
+%	
+%	\item \textbf{Sudo} \hfill \\
+%	If \emph{sudo} is not installed, execute as a root user the command: \\
+%	\texttt{apt install sudo}
+%
+%	\item \textbf{Curl} \hfill \\
+%	To download software and configuration files we recommend \emph{curl} but of course you can also use \emph{wget} or another tool. Just replace the curl commands in the following instructions with the tool you prefer using. Curl can be installed with: \\
+%	\texttt{sudo apt install curl}
+%	
+%	\item \textbf{SSL enabled for Apache} \hfill \\
+%	It is strongly recommended to have the Apache SSL module enabled and configured to support HTTPS. By default the Shibboleth messages containing user attributes are encrypted. Therefore, they can also be sent via the insecure HTTP protocol. However, any session-based access to a web page via the insecure HTTP is prone to session hijacking attacks. This also includes the Shibboleth session. Relying on HTTPS mitigates this risk.
+%	
+%	For a full step by step guide please refer to \cite{apache2-configure-ssl}.
+%	
+%\end{itemize}
+%
+%\subsubsection{Shibboleth Repository}
+%
+%The Shibboleth project only provides official binary packages for RPM-based Linux distributions \cite{shibboleth-rpm-only-packages}. As a service to its community members, SWITCH operates a repository with packages for the current Ubuntu LTS release \cite{shibboleth-switch-debian-packages}. To configure this repository as an additional source for APT, follow these steps:
+%
+%\begin{itemize}
+%	\item \textbf{Download repository package} \hfill \\
+%	\texttt{curl --fail --remote-name https://pkg.switch.ch/switchaai/ubuntu/dists/bionic/main/binary-all/misc/switchaai-apt-source\_1.0.0ubuntu1\_all.deb}
+%	
+%	\item \textbf{Install repository package} \hfill \\
+%	\texttt{sudo apt install ./switchaai-apt-source\_1.0.0ubuntu1\_all.deb} \\
+%	Ubuntu's \text{universe} section is also required for Shibboleth. If it is not enabled you can enable it with this command: \\
+%	\texttt{sudo add-apt-repository universe}
+%	
+%	\item \textbf{Refresh Repository} \hfill \\
+%	\texttt{sudo apt update}
+%\end{itemize}
+%
+%\subsubsection{Installation}
+%
+%Install the Service Provider by running: \\
+%\texttt{sudo apt update} \\
+%\texttt{sudo apt install --install-recommends shibboleth}
+%
+%The Service Provider should now be installed on the system. Of particular interests are the directories:
+%
+%\begin{itemize}
+%	\item \textbf{/etc/shibboleth} \hfill \\
+%	Configuration directory of Shibboleth. The main configuration file is \emph{shibboleth2.xml}.
+%	
+%	\item \textbf{/var/log/shibboleth} \hfill \\
+%	Log directory where logs are written to. The most important log file is the \emph{shibd.log} file that should be consulted in case of problems.
+%	
+%	\item \textbf{/run/shibboleth} \hfill \\
+%	Runtime directory where process ID and socket files are stored.
+%	
+%	\item \textbf{/var/cache/shibboleth} \hfill \\
+%	Cache directory where metadata backup and CRL files are stored.
+%	
+%\end{itemize}
+%
+%\subsubsection{Quick Test}
+%
+%After the installation a quick test shows whether the Service Provider was installed properly.
+%
+%\begin{itemize}
+%	\item \textbf{Shibboleth Configuration Check} \hfill \\
+%	In the command line, execute the following command to see whether the Shibboleth Service Provider can load the default configuration: \\
+%	\texttt{sudo shibd -t} \\
+%	Important is that the last line of the output is: \\
+%	\texttt{overall configuration is loadable, check console for non-fatal problems}
+%	
+%	\item \textbf{ Apache Configuration Check} \hfill \\
+%	Also test the Apache configuration with the command: \\
+%	\texttt{sudo apache2ctl configtest} \\
+%	The output of this command should be: \\
+%	\texttt{Syntax OK}
+%	
+%	\item \textbf{ Shibboleth Quick Test} \hfill \\
+%	(Re-) Start the web server and then access the URL: \\
+%	\texttt{https://yourhost.example.org/Shibboleth.sso/Session}. \\
+%	The web server (or rather the Shibboleth daemon respectively) should return a page that says: \\
+%	\texttt{A valid session was not found.}
+%	
+%	This message shows that the Shibboleth module is loaded by the webserver and is communicating with the \emph{shibd} process.
+%	
+%\end{itemize}
+%
+%\subsubsection{Service Provider Configuration}
+%
+%After the above tests were successful, continue to the Shibboleth configuration. Note that the configuration guide is only for \textbf{SWITCHaai Participants who configure a Service Provider for the SWITCHaai Federation (or the AAI Test Federation)}. For other use cases refer to the general configuration guide(s) of the Shibboleth Consortium \cite{shibboleth3-wiki-home}. \\
+%Please continue with the instructions on section \ref{shibboleth-configuration}, which are based on the official documentation from Switch \cite{shibboleth-configuration}.
+%
+%\subsection{Shibboleth Configuration} \label{shibboleth-configuration}
+%
+%This guide describes how to configure the Shibboleth Service Provider (SP) 3.0 for usage in the SWITCHaai or AAI Test federations. Only the configuration of the Service Provider is covered.
+%
+%https://www.switch.ch/aai/guides/sp/configuration/ 
+%
+%https://rr.aai.switch.ch/
+%
+%https://www.switch.ch/aai/docs/AAI-RR-Guide.pdf
+%
+%https://www.switch.ch/aai/docs/bcp/sp-latest.html
+%
+%https://www.switch.ch/aai/support/certificates/embeddedcerts-requirements/
+%
+%https://www.entrustdatacard.com/knowledgebase/can-i-issue-a-certificate-using-an-ip-address-or-internal-server-name
+%
+%Integrate Shibboleth with Java Servlets
+%
+%https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPJavaInstall 
+%
+%https://www.switch.ch/edu-id/organisations/tech/testing/ 
+%
+%\subsection{Resource Registry Configuration}
+%
+%\chapter{Operation and Maintenance Guidelines} \label{ch:operation-maintenance}
+%
+%\section{Deployment}
+%
+%\section{Maintenance}
+%
+%%https://www.switch.ch/aai/guides/sp/certificate-rollover/
+%
+%\subsection{Troubleshooting}
+%
+%\chapter{Example Use Cases}
+%Optional? What to put here?
+%
+
+
+\chapter{Contents of the CD}
+
+\begin{description}
+	\itemsep0em
+	\item \textbf{abstract.txt} - abstract in English. \\
+	\item \textbf{educhain-configuration} - contains Educhain configuration files. \\
+	\item \textbf{educhain-code} - contains the Swiss Educhain code. \\
+	\item \textbf{intermediate-presentation.pdf} - contains the slides for the intermediate presentation.\\
+	\item \textbf{thesis.pdf} - this thesis report as PDF. \\
+	\item \textbf{report} - contains \LaTeX sources of this thesis, including all figures. \\
+	\item \textbf{zusammenfassung.txt} - abstract in German.
+\end{description} 

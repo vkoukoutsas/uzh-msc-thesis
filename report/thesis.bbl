@@ -1,0 +1,2568 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{educhain-architecture}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a8b7e06eb0dfbc18b1d29504c1a3d8e7}{%
+           family={Gresch},
+           familyi={G\bibinitperiod},
+           given={Jerinas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9029fc1dff86a2db67769e1cd480335e}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=71057e3828350f4db9148670bf992165}{%
+           family={Scheid},
+           familyi={S\bibinitperiod},
+           given={Eder},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d42de3a8c3ca3cd3c2b0613ce846f25d}{%
+           family={Kanhere},
+           familyi={K\bibinitperiod},
+           given={Salil\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0f4b6c383b17739ca0d159224e7fef01}{%
+           family={Stiller},
+           familyi={S\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9a0684a76d41bc6e119a2b02d22fc85b}{%
+           family={Abramowicz},
+           familyi={A\bibinitperiod},
+           given={Witold},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d12c3ac18bc495ad34b0fd1da5c92548}{%
+           family={Paschke},
+           familyi={P\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{2b50a0fdd3b0c22eddc4786fa48915f1}
+      \strng{fullhash}{9a46e43478a634cd16040b25941d8174}
+      \strng{bibnamehash}{2b50a0fdd3b0c22eddc4786fa48915f1}
+      \strng{authorbibnamehash}{2b50a0fdd3b0c22eddc4786fa48915f1}
+      \strng{authornamehash}{2b50a0fdd3b0c22eddc4786fa48915f1}
+      \strng{authorfullhash}{9a46e43478a634cd16040b25941d8174}
+      \strng{editorbibnamehash}{7ecc3c3859dff99809150ea4f5b4be48}
+      \strng{editornamehash}{7ecc3c3859dff99809150ea4f5b4be48}
+      \strng{editorfullhash}{7ecc3c3859dff99809150ea4f5b4be48}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Diplomas have high importance in society since they serve as official proofs for education. Therefore, it is not surprising that forgeries of such documents have become commonplace. Thus, employers ordinarily have the diplomas manually verified by the issuer. Blockchain creates opportunities to overcome these obstacles, as it has revolutionized the way in which people interact with each other. Based on this, a holistic solution that includes issuance and verification of diplomas can be realized. This paper presents a proposal of a blockchain based system for managing diplomas called UZHBC (University of ZuricH BlockChain).}
+      \field{booktitle}{Business Information Systems Workshops}
+      \field{isbn}{978-3-030-04849-5}
+      \field{title}{The Proposal of a Blockchain-Based Architecture for Transparent Certificate Handling}
+      \field{year}{2019}
+      \field{pages}{185\bibrangedash 196}
+      \range{pages}{12}
+    \endentry
+    \entry{educhain-proposal}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=9153be377cb4c29abc46e2679f2c2782}{%
+           family={Killer},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Z{�}rich, Switzerland}%
+      }
+      \strng{namehash}{9153be377cb4c29abc46e2679f2c2782}
+      \strng{fullhash}{9153be377cb4c29abc46e2679f2c2782}
+      \strng{bibnamehash}{9153be377cb4c29abc46e2679f2c2782}
+      \strng{authorbibnamehash}{9153be377cb4c29abc46e2679f2c2782}
+      \strng{authornamehash}{9153be377cb4c29abc46e2679f2c2782}
+      \strng{authorfullhash}{9153be377cb4c29abc46e2679f2c2782}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{EduChain - Proposal of Requirements and Architecture}
+      \field{year}{2019}
+    \endentry
+    \entry{musee}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b470260b87ad9720e951e7428e62fb4c}{%
+           family={Musee},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima Mwaniki},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b470260b87ad9720e951e7428e62fb4c}
+      \strng{fullhash}{b470260b87ad9720e951e7428e62fb4c}
+      \strng{bibnamehash}{b470260b87ad9720e951e7428e62fb4c}
+      \strng{authorbibnamehash}{b470260b87ad9720e951e7428e62fb4c}
+      \strng{authornamehash}{b470260b87ad9720e951e7428e62fb4c}
+      \strng{authorfullhash}{b470260b87ad9720e951e7428e62fb4c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{An academic certification verification system based on cloud computing environment}
+      \field{type}{Thesis}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\Z3NPZLVZ\\90179.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://erepository.uonbi.ac.ke/handle/11295/90179
+      \endverb
+      \verb{url}
+      \verb http://erepository.uonbi.ac.ke/handle/11295/90179
+      \endverb
+    \endentry
+    \entry{wicked-problem}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In a time when education is becoming increasingly expensive and having a degree is a basic prerequisite for most jobs, diploma mills further confuse matters}
+      \field{day}{12}
+      \field{langid}{american}
+      \field{month}{12}
+      \field{shorttitle}{Diploma Mills}
+      \field{title}{Diploma Mills 9 Strategies for Tackling One of Higher Education's Most Wicked Problems}
+      \field{titleaddon}{{WENR}}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\NK7BHK3E\\diploma-mills-9-strategies-for-tackling-one-of-higher-educations-most-wicked-problems.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://wenr.wes.org/2017/12/diploma-mills-9-strategies-for-tackling-one-of-higher-educations-most-wicked-problems
+      \endverb
+      \verb{url}
+      \verb https://wenr.wes.org/2017/12/diploma-mills-9-strategies-for-tackling-one-of-higher-educations-most-wicked-problems
+      \endverb
+    \endentry
+    \entry{mit-digital-diploma}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital diplomas | {MIT} Registrar}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Digital diplomas | MIT Registrar:C\:\\Users\\Bill\\Zotero\\storage\\3RIWZQY7\\digital-diplomas.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://registrar.mit.edu/transcripts-records/digital-diplomas
+      \endverb
+      \verb{url}
+      \verb https://registrar.mit.edu/transcripts-records/digital-diplomas
+      \endverb
+    \endentry
+    \entry{unic-certificates}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Blockchain Certificates (Academic \& Others) Publication of Academic Certificates One of the great promises of blockchain technology is that it can serve as a decentralized permanent unalterable store of all types of information or assets, not just as a currency or payment system. Creating and issuing a digital}
+      \field{langid}{american}
+      \field{title}{Blockchain Certificates}
+      \field{titleaddon}{Institute For the Future}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\YEHGBFQC\\blockchain-certificates.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.unic.ac.cy/iff/blockchain-certificates/
+      \endverb
+      \verb{url}
+      \verb https://www.unic.ac.cy/iff/blockchain-certificates/
+      \endverb
+    \endentry
+    \entry{blockcerts}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Blockcerts Wallet is the easiest way to receive and share official credentials from a wide range of institutions, like universities, government agencies, and employers. Your credentials are registered on the Bitcoin blockchain, so they can be shared directly and independently verified. • Take ownership of your own digital credentials • Share them in a format that is independently verifiable anywhere • Build a lifelong record across institutions • Tamper-proof and completely secure Blockcerts Wallet is part of a larger open source project that was started by M.I.T. in 2016 and continues to grow. More information can be found at www.blockcerts.org. You can learn more about Learning Machine at www.learningmachine.com.}
+      \field{langid}{english}
+      \field{title}{Blockcerts Wallet - Apps on Google Play}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\RBXUGMBL\\details.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.learningmachine.android.app&hl=en
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.learningmachine.android.app&hl=en
+      \endverb
+    \endentry
+    \entry{cardano-diplomas}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b882dc7e50f4c68bd803b2bb9b1f6117}{%
+           family={Castor},
+           familyi={C\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \strng{fullhash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \strng{bibnamehash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \strng{authorbibnamehash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \strng{authornamehash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \strng{authorfullhash}{b882dc7e50f4c68bd803b2bb9b1f6117}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Greek graduates may soon be able to prove their qualifications by way of a blockchain. {GRNET}, the national research and education network of Greece, is working on a pilot project with blockchain research and development company {IOHK} to verify student diplomas on Cardano, a blockchain that...}
+      \field{day}{2}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Cardano Blockchain's First Use Case}
+      \field{title}{Cardano Blockchain's First Use Case: Proof of University Diplomas...}
+      \field{titleaddon}{Bitcoin Magazine}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\HBLWY5IV\\cardano-blockchains-first-use-case-proof-university-diplomas-greece.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://bitcoinmagazine.com/articles/cardano-blockchains-first-use-case-proof-university-diplomas-greece
+      \endverb
+      \verb{url}
+      \verb https://bitcoinmagazine.com/articles/cardano-blockchains-first-use-case-proof-university-diplomas-greece
+      \endverb
+    \endentry
+    \entry{mit-trust}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Home Page | Trust :: Data}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Home Page | Trust \:\: Data:C\:\\Users\\Bill\\Zotero\\storage\\KLJGMMJN\\trust.mit.edu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://trust.mit.edu/
+      \endverb
+      \verb{url}
+      \verb https://trust.mit.edu/
+      \endverb
+    \endentry
+    \entry{corda-website}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Develop on Corda - an open source blockchain platform that enables next-gen transparency, security and efficiency in business.}
+      \field{langid}{english}
+      \field{title}{Corda | Open Source Blockchain Platform for Business}
+      \field{titleaddon}{Corda}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\6T9HWPWA\\www.corda.net.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.corda.net/
+      \endverb
+      \verb{url}
+      \verb https://www.corda.net/
+      \endverb
+    \endentry
+    \entry{hyperledger-wiki}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Hyperledger Wiki}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Hyperledger - Hyperledger - Hyperledger Confluence:C\:\\Users\\Bill\\Zotero\\storage\\KVLE525V\\wiki.hyperledger.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://wiki.hyperledger.org/
+      \endverb
+      \verb{url}
+      \verb https://wiki.hyperledger.org/
+      \endverb
+    \endentry
+    \entry{mueller20}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=42754583acfab847aa1ebd9ecc06acf3}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={M{�}ller},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{42754583acfab847aa1ebd9ecc06acf3}
+      \strng{fullhash}{42754583acfab847aa1ebd9ecc06acf3}
+      \strng{bibnamehash}{42754583acfab847aa1ebd9ecc06acf3}
+      \strng{authorbibnamehash}{42754583acfab847aa1ebd9ecc06acf3}
+      \strng{authornamehash}{42754583acfab847aa1ebd9ecc06acf3}
+      \strng{authorfullhash}{42754583acfab847aa1ebd9ecc06acf3}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{3}
+      \field{title}{Design and Implementation of a Data-Agnostic Structure for	Blockchain Proof-of-Existence}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nakamoto_bitcoin:_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{bibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorbibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of {CPU} power. As long as a majority of {CPU} power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.}
+      \field{langid}{english}
+      \field{title}{Bitcoin: A Peer-to-Peer Electronic Cash System}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{file}
+      \verb Nakamoto - Bitcoin A Peer-to-Peer Electronic Cash System.pdf:C\:\\Users\\Bill\\Zotero\\storage\\SI5X2PKF\\Nakamoto - Bitcoin A Peer-to-Peer Electronic Cash System.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{haber_how_1991}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dc54fe6ba19414afd96d107ec03015ee}{%
+           family={Haber},
+           familyi={H\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1f8fc1588cc66f34dd23ece8c0a20872}{%
+           family={Stornetta},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi Scott},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \strng{fullhash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \strng{bibnamehash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \strng{authorbibnamehash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \strng{authornamehash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \strng{authorfullhash}{a92bf7134bdc53455b2ec958cb3ee8b9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The prospect of a world in which all text, audio, picture, and video documents are in digital form on easily modifiable media raises the issue of how to certify when a document was created or last changed. The problem is to time-stamp the data, not the medium. We propose computationally practical procedures for digital time-stamping of such documents so that it is infeasible for a user either to back-date or to forward-date his document, even with the collusion of a time-stamping service. Our procedures maintain complete privacy of the documents themselves, and require no record-keeping by the time-stamping service.}
+      \field{issn}{0933-2790}
+      \field{journaltitle}{J. Cryptol.}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{How to Time-stamp a Digital Document}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{volume}{3}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 111}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/BF00196791
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF00196791
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF00196791
+      \endverb
+      \keyw{Hash,Time-stamp}
+    \endentry
+    \entry{noauthor_20_nodate}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{20 Blockchain Use Cases for 2018 You Should Know}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\CPYFTUDX\\20-blockchain-use-cases-for-2018-you-should-know-f7d2919c191d.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://hackernoon.com/20-blockchain-use-cases-for-2018-you-should-know-f7d2919c191d
+      \endverb
+      \verb{url}
+      \verb https://hackernoon.com/20-blockchain-use-cases-for-2018-you-should-know-f7d2919c191d
+      \endverb
+    \endentry
+    \entry{noauthor_top_nodate}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Top Blockchain Platforms to watch out in 2019}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\44J37FQV\\top-blockchain-platforms-to-watch-out-in-2019-aa80e336a426.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://hackernoon.com/top-blockchain-platforms-to-watch-out-in-2019-aa80e336a426
+      \endverb
+      \verb{url}
+      \verb https://hackernoon.com/top-blockchain-platforms-to-watch-out-in-2019-aa80e336a426
+      \endverb
+    \endentry
+    \entry{rodrigues_technology-driven_nodate}{inbook}{}
+      \name{author}{5}{}{%
+        {{hash=9029fc1dff86a2db67769e1cd480335e}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f05ad710d3fe705f41bbf618272f6ec1}{%
+           family={Franco},
+           familyi={F\bibinitperiod},
+           given={Muriel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dbb9ab322cbcef651f3ff5cff791cd31}{%
+           family={Scheid},
+           familyi={S\bibinitperiod},
+           given={Eder\bibnamedelima John},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0f4b6c383b17739ca0d159224e7fef01}{%
+           family={Stiller},
+           familyi={S\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=563713b3ccdd1cd9a96cad062422e1a2}{%
+           family={Kanhere},
+           familyi={K\bibinitperiod},
+           given={Salil},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=d38565c1a33b48313c9d0884866a17d6}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Ramesh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e442288dbb5be630a7cf9128e93361ba}{%
+           family={Yildirim},
+           familyi={Y\bibinitperiod},
+           given={Hakan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b1b8378f78538f54f8d8fa2e7ebd8a96}{%
+           family={Meric},
+           familyi={M\bibinitperiod},
+           given={Gulsun},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pensilvania, U.S.A}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global}%
+      }
+      \strng{namehash}{77ef0bb7efb4246d4a7436b057bb0052}
+      \strng{fullhash}{6cc9f813117c501cc25cb151cb20d0c8}
+      \strng{bibnamehash}{77ef0bb7efb4246d4a7436b057bb0052}
+      \strng{authorbibnamehash}{77ef0bb7efb4246d4a7436b057bb0052}
+      \strng{authornamehash}{77ef0bb7efb4246d4a7436b057bb0052}
+      \strng{authorfullhash}{6cc9f813117c501cc25cb151cb20d0c8}
+      \strng{editorbibnamehash}{99b6b90377d673ada5f72d52ea0a46e6}
+      \strng{editornamehash}{99b6b90377d673ada5f72d52ea0a46e6}
+      \strng{editorfullhash}{99b6b90377d673ada5f72d52ea0a46e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Blockchain Technology Applications in Education}
+      \field{isbn}{978-1-522-59478-9}
+      \field{month}{1}
+      \field{title}{A Technology-driven Overview on Blockchain-based Academic Certificate Handling}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 290}
+      \range{pages}{290}
+      \verb{doi}
+      \verb 10.4018/978-1-5225-9478-9
+      \endverb
+      \verb{urlraw}
+      \verb https://www.igi-global.com/book/blockchain-technology-applications-education/221313
+      \endverb
+      \verb{url}
+      \verb https://www.igi-global.com/book/blockchain-technology-applications-education/221313
+      \endverb
+    \endentry
+    \entry{sociology-identity}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Identity - Sociology, Oxford Bibliographies}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\VNA9ZTSY\\obo-9780199756384-0025.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordbibliographies.com/view/document/obo-9780199756384/obo-9780199756384-0025.xml
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordbibliographies.com/view/document/obo-9780199756384/obo-9780199756384-0025.xml
+      \endverb
+    \endentry
+    \entry{psychology-identity}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Identity - {APA} Dictionary of Psychology}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\45WZXCM8\\identity.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://dictionary.apa.org/identity
+      \endverb
+      \verb{url}
+      \verb https://dictionary.apa.org/identity
+      \endverb
+    \endentry
+    \entry{digital-identity-guidelines}{report}{}
+      \name{author}{3}{}{%
+        {{hash=4ee4d2f2e32507ca8fda9a992943dc73}{%
+           family={Grassi},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3f59cd9aa65a0396d5eff7ca861b7e52}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=136534cc7e5ab9199cba9a9e1cdb73e0}{%
+           family={Fenton},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \list{location}{1}{%
+        {Gaithersburg, {MD}}%
+      }
+      \strng{namehash}{8f68bd1b8c73582b2c980c2b66289757}
+      \strng{fullhash}{8f68bd1b8c73582b2c980c2b66289757}
+      \strng{bibnamehash}{8f68bd1b8c73582b2c980c2b66289757}
+      \strng{authorbibnamehash}{8f68bd1b8c73582b2c980c2b66289757}
+      \strng{authornamehash}{8f68bd1b8c73582b2c980c2b66289757}
+      \strng{authorfullhash}{8f68bd1b8c73582b2c980c2b66289757}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{These guidelines provide technical requirements for federal agencies implementing digital identity services and are not intended to constrain the development or use of standards outside of this purpose. The guidelines cover identity proofing and authentication of users (such as employees, contractors, or private individuals) interacting with government {IT} systems over open networks. They define technical requirements in each of the areas of identity proofing, registration, authenticators, management processes, authentication protocols, federation, and related assertions. This publication supersedes {NIST} Special Publication 800-63-2.}
+      \field{day}{22}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{{NIST} {SP} 800-63-3}
+      \field{shorttitle}{Digital identity guidelines}
+      \field{title}{Digital identity guidelines: revision 3}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{NIST SP 800--63\bibrangedash 3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.6028/NIST.SP.800-63-3
+      \endverb
+      \verb{file}
+      \verb Grassi et al. - 2017 - Digital identity guidelines revision 3.pdf:C\:\\Users\\Bill\\Zotero\\storage\\24F2ZMN8\\Grassi et al. - 2017 - Digital identity guidelines revision 3.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf
+      \endverb
+      \verb{url}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf
+      \endverb
+    \endentry
+    \entry{digital-identity-techopedia}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Digital Identity Definition - A digital identity is an online or networked identity adopte}
+      \field{langid}{english}
+      \field{shorttitle}{What is a Digital Identity?}
+      \field{title}{What is a Digital Identity? - Definition from Techopedia}
+      \field{titleaddon}{Techopedia.com}
+      \field{urlday}{4}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\BV8BSBZI\\digital-identity.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/23915/digital-identity
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/23915/digital-identity
+      \endverb
+    \endentry
+    \entry{kohl_politics_1991}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e1571d0973ac0864c6c43ef6b0127ea4}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={Lawrence\bibnamedelima Frederick},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \strng{fullhash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \strng{bibnamehash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \strng{authorbibnamehash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \strng{authornamehash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \strng{authorfullhash}{e1571d0973ac0864c6c43ef6b0127ea4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{7}
+      \field{isbn}{978-0-19-536183-4}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{note}{Google-Books-{ID}: {sY}2iEA6piHcC}
+      \field{pagetotal}{279}
+      \field{shorttitle}{The Politics of Individualism}
+      \field{title}{The Politics of Individualism: Parties and the American Character in the Jacksonian Era}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \keyw{History / General,History / United States / 19th Century,Political Science / Political Process / Political Parties}
+    \endentry
+    \entry{ssi-allen}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{The Path to Self-Sovereign Identity}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb The Path to Self-Sovereign Identity:C\:\\Users\\Bill\\Zotero\\storage\\P4EHDXWT\\the-path-to-self-soverereign-identity.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+      \endverb
+      \verb{url}
+      \verb http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+      \endverb
+    \endentry
+    \entry{sovrin-website}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{Home - Sovrin}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Home - Sovrin:C\:\\Users\\Bill\\Zotero\\storage\\734TU3F5\\sovrin.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://sovrin.org/
+      \endverb
+      \verb{url}
+      \verb https://sovrin.org/
+      \endverb
+    \endentry
+    \entry{uport-website}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{At {uPort}, we build trusted ecosystems that let you, your partners and customers share data in a simple, secure, privacy-preserving way.}
+      \field{title}{{uPort} - Tools for Decentralized Identity and Trusted Data}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\WU39DY92\\www.uport.me.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.uport.me/
+      \endverb
+      \verb{url}
+      \verb https://www.uport.me/
+      \endverb
+    \endentry
+    \entry{shocard-website}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{{ShoCard}: The Premier Blockchain-Based Mobile Identity Platform}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://shocard.com/
+      \endverb
+      \verb{url}
+      \verb https://shocard.com/
+      \endverb
+    \endentry
+    \entry{ssi-comparison}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c899caf822a1c828476ec7d7da6c7afe}{%
+           family={Dunphy},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0d00c2d290eff4841f5032b392db1e00}{%
+           family={Petitcolas},
+           familyi={P\bibinitperiod},
+           given={Fabien\bibnamedelima A.P.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{133f59b90c1a6a9bca9cc6033b040420}
+      \strng{fullhash}{133f59b90c1a6a9bca9cc6033b040420}
+      \strng{bibnamehash}{133f59b90c1a6a9bca9cc6033b040420}
+      \strng{authorbibnamehash}{133f59b90c1a6a9bca9cc6033b040420}
+      \strng{authornamehash}{133f59b90c1a6a9bca9cc6033b040420}
+      \strng{authorfullhash}{133f59b90c1a6a9bca9cc6033b040420}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The emergence of distributed ledger technology ({DLT}) based upon a blockchain data structure, has given rise to new approaches to identity management that aim to upend dominant approaches to providing and consuming digital identities. These new approaches to identity management ({IdM}) propose to enhance decentralisation, transparency and user control in transactions that involve identity information; but, given the historical challenge to design {IdM}, can these new {DLTbased} schemes deliver on their lofty goals? We introduce the emerging landscape of {DLT}-based {IdM}, and evaluate three representative proposals – {uPort}, {ShoCard} and Sovrin – using the analytic lens of a seminal framework that characterises the nature of successful {IdM} schemes.}
+      \field{issn}{1540-7993, 1558-4046}
+      \field{journaltitle}{{IEEE} Security \& Privacy}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shortjournal}{{IEEE} Secur. Privacy}
+      \field{title}{A First Look at Identity Management Schemes on the Blockchain}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{volume}{16}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{20\bibrangedash 29}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MSP.2018.3111247
+      \endverb
+      \verb{file}
+      \verb Dunphy and Petitcolas - 2018 - A First Look at Identity Management Schemes on the.pdf:C\:\\Users\\Bill\\Zotero\\storage\\MI8TXNIK\\Dunphy and Petitcolas - 2018 - A First Look at Identity Management Schemes on the.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8425607/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8425607/
+      \endverb
+    \endentry
+    \entry{iam-definition-gartner}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Identity and access management ({IAM}) is the discipline that enables the right individuals to access the right resources at the right times for the right reasons.}
+      \field{langid}{english}
+      \field{title}{Identity And Access Management (iam)}
+      \field{titleaddon}{Gartner}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\DA7DYWC9\\identity-and-access-management-iam.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.gartner.com/en/information-technology/glossary/identity-and-access-management-iam
+      \endverb
+      \verb{url}
+      \verb https://www.gartner.com/en/information-technology/glossary/identity-and-access-management-iam
+      \endverb
+    \endentry
+    \entry{access-control-definition-techopedia}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Access Control Definition - Access control is a way of limiting access to a system or to p}
+      \field{langid}{english}
+      \field{shorttitle}{What is Access Control?}
+      \field{title}{What is Access Control? - Definition from Techopedia}
+      \field{titleaddon}{Techopedia.com}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\PB9G72MQ\\access-control.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/5831/access-control
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/5831/access-control
+      \endverb
+    \endentry
+    \entry{access-control-definition-csoonline}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8443a25cddc8a0d6e6bc9e8a93a18082}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \strng{fullhash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \strng{bibnamehash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \strng{authorbibnamehash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \strng{authornamehash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \strng{authorfullhash}{8443a25cddc8a0d6e6bc9e8a93a18082}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Access control is a method of guaranteeing that users are who they say they are and that they have the appropriate access to company data. It is a vital aspect of data security, but it has some significant enforcement challenges.}
+      \field{day}{21}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{What is access control?}
+      \field{title}{What is access control? A key component of data security}
+      \field{titleaddon}{{CSO} Online}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\YB7KB7WC\\what-is-access-control-a-key-component-of-data-security.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.csoonline.com/article/3251714/what-is-access-control-a-key-component-of-data-security.html
+      \endverb
+      \verb{url}
+      \verb https://www.csoonline.com/article/3251714/what-is-access-control-a-key-component-of-data-security.html
+      \endverb
+    \endentry
+    \entry{access-control-definition-searchsecurity}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Learn about how you can use access control to minimize the risk of unauthorized access to physical assets and information systems in security programs. Take a look at the types of access control and how it's implemented.}
+      \field{langid}{english}
+      \field{shorttitle}{What is access control?}
+      \field{title}{What is access control? - Definition from {WhatIs}.com}
+      \field{titleaddon}{{SearchSecurity}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\4FJYTIPU\\access-control.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://searchsecurity.techtarget.com/definition/access-control
+      \endverb
+      \verb{url}
+      \verb https://searchsecurity.techtarget.com/definition/access-control
+      \endverb
+    \endentry
+    \entry{identification-def-nist}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{identification - Glossary | {CSRC}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb identification - Glossary | CSRC:C\:\\Users\\Bill\\Zotero\\storage\\AL7HEANJ\\identification.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://csrc.nist.gov/glossary/term/identification
+      \endverb
+      \verb{url}
+      \verb https://csrc.nist.gov/glossary/term/identification
+      \endverb
+    \endentry
+    \entry{authentication-definition-cryptomathic}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Authentication - the basics}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Digital Authentication - the basics:C\:\\Users\\Bill\\Zotero\\storage\\Y5RQAK6U\\digital-authentication-the-basics.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cryptomathic.com/news-events/blog/digital-authentication-the-basics
+      \endverb
+      \verb{url}
+      \verb https://www.cryptomathic.com/news-events/blog/digital-authentication-the-basics
+      \endverb
+    \endentry
+    \entry{strong-authentication}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Payment Services Directive ({PSD}2): Regulatory Technical Standards ({RTS}) enabling consumers to benefit from safer and more innovative electronic payments}
+      \field{langid}{english}
+      \field{shorttitle}{Payment Services Directive ({PSD}2)}
+      \field{title}{Payment Services Directive ({PSD}2): Regulatory Technical Standards ({RTS}) enabling consumers to benefit from safer and more innovative electro}
+      \field{titleaddon}{European Commission - European Commission}
+      \field{type}{Text}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\BLKECYP4\\MEMO_17_4961.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ec.europa.eu/commission/presscorner/detail/en/MEMO_17_4961
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/commission/presscorner/detail/en/MEMO_17_4961
+      \endverb
+    \endentry
+    \entry{strong-authentication-opinion}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The European Banking Authority ({EBA}) published today an Opinion on the elements of strong customer authentication ({SCA}) under the revised Payment Services Directive ({PSD}2). The Opinion is a response to continued queries from market actors as to which authentication approaches the {EBA} considers to be compliant with {SCA}. The Opinion also addresses concerns about the preparedness and compliance of some actors in the payments chain with the {SCA} requirements that apply as of 14 September 2019.}
+      \field{day}{21}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{{EBA} publishes an Opinion on the elements of strong customer authentication under {PSD}2}
+      \field{titleaddon}{European Banking Authority}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\ZRBVM2MK\\eba-publishes-an-opinion-on-the-elements-of-strong-customer-authentication-under-psd2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://eba.europa.eu/eba-publishes-an-opinion-on-the-elements-of-strong-customer-authentication-under-psd2
+      \endverb
+      \verb{url}
+      \verb https://eba.europa.eu/eba-publishes-an-opinion-on-the-elements-of-strong-customer-authentication-under-psd2
+      \endverb
+    \endentry
+    \entry{authentication-def-ietf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e52e4628bf7f538500508fe1e005e2b6}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Barbara\bibnamedelima Y.},
+           giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{e52e4628bf7f538500508fe1e005e2b6}
+      \strng{fullhash}{e52e4628bf7f538500508fe1e005e2b6}
+      \strng{bibnamehash}{e52e4628bf7f538500508fe1e005e2b6}
+      \strng{authorbibnamehash}{e52e4628bf7f538500508fe1e005e2b6}
+      \strng{authornamehash}{e52e4628bf7f538500508fe1e005e2b6}
+      \strng{authorfullhash}{e52e4628bf7f538500508fe1e005e2b6}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Site Security Handbook}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\Z83X9XHA\\rfc2196.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://tools.ietf.org/html/rfc2196#section-4.4
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc2196#section-4.4
+      \endverb
+    \endentry
+    \entry{auth-rules-ibm}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{{IBM} Knowledge Center - Authorization Rules}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb IBM Knowledge Center:C\:\\Users\\Bill\\Zotero\\storage\\CAF5M3CW\\con_tamauthorule.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/support/knowledgecenter/SSPREK_9.0.0/com.ibm.isam.doc/base_admin/concept/con_tamauthorule.html
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/support/knowledgecenter/SSPREK_9.0.0/com.ibm.isam.doc/base_admin/concept/con_tamauthorule.html
+      \endverb
+    \endentry
+    \entry{abac-nist}{report}{}
+      \name{author}{7}{}{%
+        {{hash=527b83b3c8c6264ec6be8ccbec467dad}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Vincent\bibnamedelima C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=35aedb704edc386c5cf58726c3d2833a}{%
+           family={Ferraiolo},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fbe58cf7fa55ebb352e9db3813f42842}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9135ef5fec9a35160ab24b76a853f279}{%
+           family={Schnitzer},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=568b6d50a5d52d693b4747afbb4f3cfb}{%
+           family={Sandlin},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6e9ebbefbdc40e0ed98cbb49db36cb59}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6ea98e3682d33480471e822adaacdc41}{%
+           family={Scarfone},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{64034bae70074c1316a85f0a3fb72019}
+      \strng{fullhash}{6a1aca66cccae99f7fd58d4a2693bd5e}
+      \strng{bibnamehash}{64034bae70074c1316a85f0a3fb72019}
+      \strng{authorbibnamehash}{64034bae70074c1316a85f0a3fb72019}
+      \strng{authornamehash}{64034bae70074c1316a85f0a3fb72019}
+      \strng{authorfullhash}{6a1aca66cccae99f7fd58d4a2693bd5e}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document provides Federal agencies with a definition of attribute based access control ({ABAC}). {ABAC} is a logical access control methodology where authorization to perform a set of operations is determined by evaluating attributes associated with the subject, object, requested operations, and, in some cases, environment conditions against policy, rules, or relationships that describe the allowable operations for a given set of attributes. This document also provides considerations for using {ABAC} to improve information sharing within organizations and between organizations while maintaining control of that information.}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{{NIST} {SP} 800-162}
+      \field{title}{Guide to Attribute Based Access Control ({ABAC}) Definition and Considerations}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{NIST SP 800\bibrangedash 162}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.6028/NIST.SP.800-162
+      \endverb
+      \verb{file}
+      \verb Hu et al. - 2014 - Guide to Attribute Based Access Control (ABAC) Def.pdf:C\:\\Users\\Bill\\Zotero\\storage\\Q7DUBK7D\\Hu et al. - 2014 - Guide to Attribute Based Access Control (ABAC) Def.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-162.pdf
+      \endverb
+      \verb{url}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-162.pdf
+      \endverb
+    \endentry
+    \entry{rbac-def-nist-glossary}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{role-based access control ({RBAC}) - Glossary | {CSRC}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb role-based access control (RBAC) - Glossary | CSRC:C\:\\Users\\Bill\\Zotero\\storage\\J2NW4S6W\\role_based-access-control.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://csrc.nist.gov/glossary/term/role_based-access-control
+      \endverb
+      \verb{url}
+      \verb https://csrc.nist.gov/glossary/term/role_based-access-control
+      \endverb
+    \endentry
+    \entry{rbac-def-nist}{report}{}
+      \name{author}{1}{}{%
+        {{hash=c48dccee47d07c335d3f3f6ad6fbe78a}{%
+           family={{Joint Task Force Transformation Initiative}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \strng{fullhash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \strng{bibnamehash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \strng{authorbibnamehash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \strng{authornamehash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \strng{authorfullhash}{c48dccee47d07c335d3f3f6ad6fbe78a}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This publication provides a catalog of security and privacy controls for federal information systems and organizations and a process for selecting controls to protect organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation from a diverse set of threats including hostile cyber attacks, natural disasters, structural failures, and human errors. The controls are customizable and implemented as part of an organization-wide process that manages information security and privacy risk. The controls address a diverse set of security and privacy requirements across the federal government and critical infrastructure, derived from legislation, Executive Orders, policies, directives, regulations, standards, and/or mission/business needs. The publication also describes how to develop specialized sets of controls, or overlays, tailored for specific types of missions/business functions, technologies, or environments of operation. Finally, the catalog of security controls addresses security from both a functionality perspective (the strength of security functions and mechanisms provided) and an assurance perspective (the measures of confidence in the implemented security capability). Addressing both security functionality and security assurance ensures that information technology products and the information systems built from those products using sound systems and security engineering principles are sufficiently trustworthy.}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{{NIST} {SP} 800-53r4}
+      \field{title}{Security and Privacy Controls for Federal Information Systems and Organizations}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{NIST SP 800\bibrangedash 53r4}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.6028/NIST.SP.800-53r4
+      \endverb
+      \verb{file}
+      \verb Joint Task Force Transformation Initiative - 2013 - Security and Privacy Controls for Federal Informat.pdf:C\:\\Users\\Bill\\Zotero\\storage\\G5LZS9CP\\Joint Task Force Transformation Initiative - 2013 - Security and Privacy Controls for Federal Informat.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf
+      \endverb
+      \verb{url}
+      \verb https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf
+      \endverb
+    \endentry
+    \entry{shib-website}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{Shibboleth Consortium Privacy Preserving Identity Management}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shibboleth Consortium Privacy Preserving Identity Management:C\:\\Users\\Bill\\Zotero\\storage\\VB43QYXW\\www.shibboleth.net.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.shibboleth.net/
+      \endverb
+      \verb{url}
+      \verb https://www.shibboleth.net/
+      \endverb
+    \endentry
+    \entry{eduid-website}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{{SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\EJQZYM7B\\edu-id.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/
+      \endverb
+    \endentry
+    \entry{corda-accounts-library}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accounts on Corda. Contribute to corda accounts development by creating an account on GitHub.}
+      \field{title}{Corda Accounts Library}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\NHXUMF8U\\docs.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/corda/accounts
+      \endverb
+      \verb{url}
+      \verb https://github.com/corda/accounts
+      \endverb
+    \endentry
+    \entry{Gres18}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a8b7e06eb0dfbc18b1d29504c1a3d8e7}{%
+           family={Gresch},
+           familyi={G\bibinitperiod},
+           given={Jerinas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universit{�}t Z{�}rich}%
+      }
+      \list{location}{1}{%
+        {Zurich, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {Communication Systems Group, Department of Informatics}%
+      }
+      \strng{namehash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \strng{fullhash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \strng{bibnamehash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \strng{authorbibnamehash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \strng{authornamehash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \strng{authorfullhash}{a8b7e06eb0dfbc18b1d29504c1a3d8e7}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{An Educational Blockchain for the University of Zurich (UZHBC)}
+      \field{type}{mathesis}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://files.ifi.uzh.ch/CSG/staff/rodrigues/extern/theses/ma-jerinas.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.ifi.uzh.ch/CSG/staff/rodrigues/extern/theses/ma-jerinas.pdf
+      \endverb
+    \endentry
+    \entry{switch-foundation-about}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundation - About us - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Foundation - About us - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\FQ4CDYBD\\foundation.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/about/foundation/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/about/foundation/
+      \endverb
+    \endentry
+    \entry{switch-services-aai-eduid}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Authentication - Services - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Authentication - Services - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\3XT3ICC3\\aai.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/services/aai/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/services/aai/
+      \endverb
+    \endentry
+    \entry{switch-federation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0a828803cafdacbde442f9aee294494c}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a828803cafdacbde442f9aee294494c}
+      \strng{fullhash}{0a828803cafdacbde442f9aee294494c}
+      \strng{bibnamehash}{0a828803cafdacbde442f9aee294494c}
+      \strng{authorbibnamehash}{0a828803cafdacbde442f9aee294494c}
+      \strng{authornamehash}{0a828803cafdacbde442f9aee294494c}
+      \strng{authorfullhash}{0a828803cafdacbde442f9aee294494c}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {SWITCH} identity federation was conceived almost two decades ago. The {SWITCHaai} service, implementing its concepts, has been in operation for over a decade. Today, the {SWITCH} edu-{ID} service is i&}
+      \field{day}{24}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{The {SWITCH} identity federation - a look beyond its borders}
+      \field{titleaddon}{{SWITCH} Identity Blog}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\FRW4KDWL\\the-switch-identity-federation-a-look-beyond-its-borders.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://identityblog.switch.ch/2018/04/24/the-switch-identity-federation-a-look-beyond-its-borders/
+      \endverb
+      \verb{url}
+      \verb https://identityblog.switch.ch/2018/04/24/the-switch-identity-federation-a-look-beyond-its-borders/
+      \endverb
+    \endentry
+    \entry{eduid-service-description}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Service Description - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Terms - About - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\9N4W5YUM\\terms.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/about/terms/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/about/terms/
+      \endverb
+    \endentry
+    \entry{switch-eduid-benefits}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{{SWITCH} edu-{ID} - {SWITCH} Benefits}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\MYPTM9ZX\\edu-id.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/#benefits
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/#benefits
+      \endverb
+    \endentry
+    \entry{eduid-for-organizations}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{For organisations - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb For organisations - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\85AVLNZT\\organisations.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/organisations/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/organisations/
+      \endverb
+    \endentry
+    \entry{eduid-for-services}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\AFCPJ7SX\\services.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/services/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/services/
+      \endverb
+    \endentry
+    \entry{eduid-for-users}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{For users - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb For users - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\5SAQKN22\\users.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/users/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/users/
+      \endverb
+    \endentry
+    \entry{eduid-architecture}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{Architecture - For organisations - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Architecture - For organisations - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\Z4AI6IKI\\architecture.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/organisations/architecture/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/organisations/architecture/
+      \endverb
+    \endentry
+    \entry{eduid-vs-aai}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{Swiss edu-{ID} vs. {SWITCHaai} - About - Swiss edu-{ID} - {SWITCH} Projects}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Swiss edu-ID vs. SWITCHaai - About - Swiss edu-ID - SWITCH Projects:C\:\\Users\\Bill\\Zotero\\storage\\7IH4E7K5\\swiss-edu-id-vs.-switchaai.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://projects.switch.ch/eduid/about/swiss-edu-id-vs.-switchaai/
+      \endverb
+      \verb{url}
+      \verb https://projects.switch.ch/eduid/about/swiss-edu-id-vs.-switchaai/
+      \endverb
+    \endentry
+    \entry{sso-shibboleth-toronto}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{{SAML} and Shibboleth}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SAML and Shibboleth:C\:\\Users\\Bill\\Zotero\\storage\\FFFTEFII\\shibboleth.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://sites.utoronto.ca/security/projects/shibboleth.htm
+      \endverb
+      \verb{url}
+      \verb http://sites.utoronto.ca/security/projects/shibboleth.htm
+      \endverb
+    \endentry
+    \entry{corda-github}{software}{}
+      \list{publisher}{1}{%
+        {Corda}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda\&\#39;s smart...}
+      \field{day}{8}
+      \field{month}{2}
+      \field{note}{original-date: 2016-10-06T08:46:29Z}
+      \field{title}{corda/corda}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/corda/corda
+      \endverb
+      \verb{url}
+      \verb https://github.com/corda/corda
+      \endverb
+      \keyw{corda,distributed-ledger,dlt,kotlin}
+    \endentry
+    \entry{r3-website}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{abstract}{R3 delivers Corda - the next-gen blockchain for business, enabled by our industry-leading distributed ledger technology.}
+      \field{langid}{english}
+      \field{title}{R3 | Blockchain \& {DLT} Software Development Company}
+      \field{titleaddon}{R3}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\GDVRSFFY\\www.r3.com.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.r3.com/
+      \endverb
+      \verb{url}
+      \verb https://www.r3.com/
+      \endverb
+    \endentry
+    \entry{corda-contributions}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corda is open source, open design and open development. Help us advance Corda blockchain platform by contributing today!}
+      \field{langid}{english}
+      \field{title}{Advance Corda by Contributing Code}
+      \field{titleaddon}{Corda}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\ARSQCVEN\\contribute-code.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.corda.net/contribute-code/
+      \endverb
+      \verb{url}
+      \verb https://www.corda.net/contribute-code/
+      \endverb
+    \endentry
+    \entry{corda-community}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Connect with Corda developers and enthusiasts through Slack, Stack Overflow, mailing lists and meetups}
+      \field{langid}{english}
+      \field{title}{Connect with Our Blockchain Community}
+      \field{titleaddon}{Corda}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\UG7T4Z3B\\community.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.corda.net/community/
+      \endverb
+      \verb{url}
+      \verb https://www.corda.net/community/
+      \endverb
+    \endentry
+    \entry{corda-nodes}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{Nodes -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Nodes -- R3 Corda Master documentation:C\:\\Users\\Bill\\Zotero\\storage\\R4ITTZFU\\key-concepts-node.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts-node.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts-node.html
+      \endverb
+    \endentry
+    \entry{corda-concepts}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{Key concepts -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Key concepts -- R3 Corda Master documentation:C\:\\Users\\vasileios.koukoutsas\\Zotero\\storage\\MB8EEFEP\\key-concepts.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts.html
+      \endverb
+    \endentry
+    \entry{corda-djvm}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{Deterministic {JVM} -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Deterministic JVM -- R3 Corda Master documentation:C\:\\Users\\Bill\\Zotero\\storage\\68Y8UYEF\\key-concepts-djvm.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts-djvm.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts-djvm.html
+      \endverb
+    \endentry
+    \entry{corda-network}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{The network -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb The network -- R3 Corda Master documentation:C\:\\Users\\vasileios.koukoutsas\\Zotero\\storage\\K7C4C9BW\\key-concepts-ecosystem.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts-ecosystem.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts-ecosystem.html
+      \endverb
+    \endentry
+    \entry{corda-ledger}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{The ledger -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb The ledger-- R3 Corda Master documentation:C\:\\Users\\vasileios.koukoutsas\\Zotero\\storage\\EH7TB37I\\key-concepts-ledger.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts-ledger.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts-ledger.html
+      \endverb
+    \endentry
+    \entry{corda-contracts}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{Contracts -- R3 Corda Master documentation}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Contracts -- R3 Corda Master documentation:C\:\\Users\\vasileios.koukoutsas\\Zotero\\storage\\YR8AH4LQ\\key-concepts-contracts.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.corda.net/key-concepts-contracts.html
+      \endverb
+      \verb{url}
+      \verb https://docs.corda.net/key-concepts-contracts.html
+      \endverb
+    \endentry
+    \entry{corda-accounts-announcement}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Uncategorized Unlocking New Opportunities with Accounts on Corda}
+      \field{day}{18}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Unlocking New Opportunities with Accounts on Corda}
+      \field{titleaddon}{Corda}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\GV4UBM9L\\unlocking-new-opportunities-with-accounts-on-corda-2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.corda.net/blog/unlocking-new-opportunities-with-accounts-on-corda-2/
+      \endverb
+      \verb{url}
+      \verb https://www.corda.net/blog/unlocking-new-opportunities-with-accounts-on-corda-2/
+      \endverb
+    \endentry
+    \entry{shib-user-group-question}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Shibboleth - Users - Shibboleth 3 attributes not exposed from Apache 2.4 as environment variables | Threaded View}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shibboleth - Users - Shibboleth 3 attributes not exposed from Apache 2.4 as environment variables | Threaded View:C\:\\Users\\Bill\\Zotero\\storage\\2IESY8KB\\Shibboleth-3-attributes-not-exposed-from-Apache-2-4-as-environment-variables-tt7644981.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://shibboleth.1660669.n2.nabble.com/Shibboleth-3-attributes-not-exposed-from-Apache-2-4-as-environment-variables-tt7644981.html
+      \endverb
+      \verb{url}
+      \verb https://shibboleth.1660669.n2.nabble.com/Shibboleth-3-attributes-not-exposed-from-Apache-2-4-as-environment-variables-tt7644981.html
+      \endverb
+    \endentry
+    \entry{stackoverflow-corda-service}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{kotlin - Corda Service Failed to Instantiate}
+      \field{titleaddon}{Stack Overflow}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\PALKGC7Y\\corda-service-failed-to-instantiate.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/59433434/corda-service-failed-to-instantiate
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/59433434/corda-service-failed-to-instantiate
+      \endverb
+    \endentry
+    \entry{stackoverflow-corda-accounts}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{corda - How to Query if an Account exists by name}
+      \field{titleaddon}{Stack Overflow}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\KNF3P678\\how-to-query-if-an-account-exists-by-name.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/59431400/how-to-query-if-an-account-exists-by-name
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/59431400/how-to-query-if-an-account-exists-by-name
+      \endverb
+    \endentry
+    \entry{noauthor_uzh_nodate}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{UZH} Blockchain Centre}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://blockchain.uzh.ch/
+      \endverb
+      \verb{url}
+      \verb http://blockchain.uzh.ch/
+      \endverb
+    \endentry
+    \entry{r3-market-identity}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With over 200 institutions and a growing library of applications and services on Corda, Marketplace is a web platform to discover or showcase expertise and solutions on Corda.}
+      \field{langid}{english}
+      \field{title}{R3 Marketplace | Identity Solutions}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\DQ9FEN9P\\solutions.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://marketplace.r3.com
+      \endverb
+      \verb{url}
+      \verb https://marketplace.r3.com
+      \endverb
+    \endentry
+    \entry{saml-duo-guide}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Get a quick lesson in what {SAML} is and how logging in with {SAML} works, plus learn a few of the most common {SAML} scenarios and a rundown of configuration specifics - all explained around a Beer as a Service analogy.}
+      \field{langid}{english}
+      \field{title}{The Beer Drinker's Guide to {SAML}}
+      \field{titleaddon}{Duo Security}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\2C2R4JGR\\the-beer-drinkers-guide-to-saml.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://duo.com/blog/the-beer-drinkers-guide-to-saml
+      \endverb
+      \verb{url}
+      \verb https://duo.com/blog/the-beer-drinkers-guide-to-saml
+      \endverb
+    \endentry
+    \entry{eduid-password-policy}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f53bc4a3c1f9598a7b88e5db2bed56d5}{%
+           family={Haemmerle},
+           familyi={H\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \strng{fullhash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \strng{bibnamehash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \strng{authorbibnamehash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \strng{authornamehash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \strng{authorfullhash}{f53bc4a3c1f9598a7b88e5db2bed56d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since a few months now, edu-{ID} users  can secure their account with multi-factor authentication (Two-Step Login). However, currently 99.5\% of all edu-{ID} accounts still rely exclusively on username …}
+      \field{day}{13}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Secrets of the edu-{ID} passwords}
+      \field{titleaddon}{{SWITCH} Identity Blog}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\IN7VDLYN\\secrets-of-edu-id-passwords.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://identityblog.switch.ch/2019/08/13/secrets-of-edu-id-passwords/
+      \endverb
+      \verb{url}
+      \verb https://identityblog.switch.ch/2019/08/13/secrets-of-edu-id-passwords/
+      \endverb
+    \endentry
+    \entry{eduid-two-step-login}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Two-Step Login - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Two-Step Login - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\RLDIDG8E\\two-step-login.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/services/two-step-login/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/services/two-step-login/
+      \endverb
+    \endentry
+    \entry{eduid-attribute-quality}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Attribute Quality - Attribute Model - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Attribute Quality - Attribute Model - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\RDRJLB7L\\quality-levels.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/de/edu-id/services/attributes/quality-levels/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/de/edu-id/services/attributes/quality-levels/
+      \endverb
+    \endentry
+    \entry{eduid-extended-attribute-model}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Extended Model - Attribute Model - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Extended Model - Attribute Model - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\FXRXXI55\\extended-model.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/de/edu-id/services/attributes/extended-model/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/de/edu-id/services/attributes/extended-model/
+      \endverb
+    \endentry
+    \entry{eduid-technical-accounts}{online}{}
+      \name{author}{1}{}{%
+        {{hash=65ce91cdd60346d1ec7a1ee38ca5c4b7}{%
+           family={Brugger},
+           familyi={B\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{fullhash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{bibnamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authorbibnamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authornamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authorfullhash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{“Thou shalt not have more than one {SWITCH} edu-{ID} user account!” this is one of the commandments in the edu-{ID} terms of use. It originates from a need of the organizations to be able to unambiguousl…}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Technical Accounts}
+      \field{titleaddon}{{SWITCH} Identity Blog}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\8RIU9GJI\\technical-accounts.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://identityblog.switch.ch/2019/02/01/technical-accounts/
+      \endverb
+      \verb{url}
+      \verb https://identityblog.switch.ch/2019/02/01/technical-accounts/
+      \endverb
+    \endentry
+    \entry{eduid-link-composer}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Link Composer - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Link Composer - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\DP5FTS3Y\\link-composer.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/
+      \endverb
+    \endentry
+    \entry{eduid-attribute-flow}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Attribute Completion Flow - Link Composer - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Attribute Completion Flow - Link Composer - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\PDB76VQB\\attribute-completion-flow.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/attribute-completion-flow/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/attribute-completion-flow/
+      \endverb
+    \endentry
+    \entry{eduid-login-flow}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Login flows - Link Composer - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Login flows - Link Composer - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\S5EBYBFA\\login-flows.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/login-flows/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/de/edu-id/services/link-composer/login-flows/
+      \endverb
+    \endentry
+    \entry{eduid-testing}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Testing - {APIs} and technical guides - For organisations - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Testing - APIs and technical guides - For organisations - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\GWRUYSQA\\testing.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/organisations/tech/testing/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/organisations/tech/testing/
+      \endverb
+    \endentry
+    \entry{switch-aai-resource-registry-website}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{SWITCH} - {AAI} Resource Registry - Home}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SWITCH - AAI Resource Registry - Home:C\:\\Users\\Bill\\Zotero\\storage\\EKH87V9T\\menu.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://rr.aai.switch.ch/menu.php
+      \endverb
+      \verb{url}
+      \verb https://rr.aai.switch.ch/menu.php
+      \endverb
+    \endentry
+    \entry{switch-eduid-architecture-presentation}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{The {Swiss edu-ID} - The persistent Swiss academic digital identity}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://projects.switch.ch/export/sites/projects/eduid/.galleries/documents/1_20140813_Swiss_edu-ID_V2.pdf
+      \endverb
+      \verb{url}
+      \verb https://projects.switch.ch/export/sites/projects/eduid/.galleries/documents/1_20140813_Swiss_edu-ID_V2.pdf
+      \endverb
+    \endentry
+    \entry{switch-resource-registry-info}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Resource Registry - Tools - Support - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Resource Registry - Tools - Support - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\Y4GK95TB\\resource-registry.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/support/tools/resource-registry/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/support/tools/resource-registry/
+      \endverb
+    \endentry
+    \entry{aai-federation}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Federation - About - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Federation - About - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\92BS22ZV\\federation.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/about/federation/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/about/federation/
+      \endverb
+    \endentry
+    \entry{eduid-adoption}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Adoption - For organisations - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Adoption - For organisations - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\AMAHNV53\\adoption.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/organisations/adoption/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/organisations/adoption/
+      \endverb
+    \endentry
+    \entry{attribute-model}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Attribute Model - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Attribute Model - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\5PALRIAG\\attributes.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/services/attributes/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/services/attributes/
+      \endverb
+    \endentry
+    \entry{classic-attribute-model}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Classic Model - Attribute Model - For services - {SWITCH} edu-{ID} - {SWITCH}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Classic Model - Attribute Model - For services - SWITCH edu-ID - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\LBBV7MMQ\\classic-model.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/edu-id/services/attributes/classic-model/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/edu-id/services/attributes/classic-model/
+      \endverb
+    \endentry
+    \entry{switch-eduid-services-presentation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=65ce91cdd60346d1ec7a1ee38ca5c4b7}{%
+           family={Brugger},
+           familyi={B\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{fullhash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{bibnamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authorbibnamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authornamehash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \strng{authorfullhash}{65ce91cdd60346d1ec7a1ee38ca5c4b7}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{6}
+      \field{title}{{Services} and {Swiss edu-ID}}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://projects.switch.ch/export/sites/projects/eduid/.galleries/documents/1_20140813_Swiss_edu-ID_V2.pdf
+      \endverb
+      \verb{url}
+      \verb https://projects.switch.ch/export/sites/projects/eduid/.galleries/documents/1_20140813_Swiss_edu-ID_V2.pdf
+      \endverb
+    \endentry
+    \entry{persistent-id}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Persistent {ID} as a User Attribute - Service Provider - Guides - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Using Persistent ID as a User Attribute - Service Provider - Guides - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\MKQCFKXU\\persistentid.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/guides/sp/persistentid/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/guides/sp/persistentid/
+      \endverb
+    \endentry
+    \entry{shib-logins}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{How Shibboleth Logins Work | {NC} State Shibboleth}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb How Shibboleth Logins Work | NC State Shibboleth:C\:\\Users\\Bill\\Zotero\\storage\\L3SEJUD7\\shibworks.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.shib.ncsu.edu/docs/shibworks.html
+      \endverb
+      \verb{url}
+      \verb https://docs.shib.ncsu.edu/docs/shibworks.html
+      \endverb
+    \endentry
+    \entry{aai-guides-sp}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Service Provider - Guides - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Service Provider - Guides - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\2JKHGQKJ\\sp.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/guides/sp/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/guides/sp/
+      \endverb
+    \endentry
+    \entry{shibboleth-installation}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Shibboleth {SP} Installation - Service Provider - Guides - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shibboleth SP Installation - Service Provider - Guides - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\GZT4L29A\\installation.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/guides/sp/installation/?os=ubuntu
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/guides/sp/installation/?os=ubuntu
+      \endverb
+    \endentry
+    \entry{shibboleth-configuration}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Shibboleth {SP} Configuration - Service Provider - Guides - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shibboleth SP Configuration - Service Provider - Guides - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\4WTASQVA\\configuration.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/guides/sp/configuration/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/guides/sp/configuration/
+      \endverb
+    \endentry
+    \entry{certbot-website}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Automatically enable {HTTPS} on your website with {EFF}'s Certbot, deploying Let's Encrypt certificates.}
+      \field{langid}{english}
+      \field{title}{Certbot - Ubuntubionic Apache}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\Y3ZHW7F9\\ubuntubionic-apache.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://certbot.eff.org/lets-encrypt/ubuntubionic-apache
+      \endverb
+      \verb{url}
+      \verb https://certbot.eff.org/lets-encrypt/ubuntubionic-apache
+      \endverb
+    \endentry
+    \entry{lets-encrypt}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Let's Encrypt - Free {SSL}/{TLS} Certificates}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Let's Encrypt - Free SSL/TLS Certificates:C\:\\Users\\Bill\\Zotero\\storage\\IURK544G\\letsencrypt.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://letsencrypt.org/
+      \endverb
+      \verb{url}
+      \verb https://letsencrypt.org/
+      \endverb
+    \endentry
+    \entry{java-certificate}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{KeyChest} - Let's Encrypt certificate into Java {JKS}}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb KeyChest - Let's Encrypt certificate into Java JKS:C\:\\Users\\vasileios.koukoutsas\\Zotero\\storage\\TUWYY48E\\lets-encrypt-certificate-into-java-jks.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://keychest.net/stories/lets-encrypt-certificate-into-java-jks
+      \endverb
+      \verb{url}
+      \verb https://keychest.net/stories/lets-encrypt-certificate-into-java-jks
+      \endverb
+    \endentry
+    \entry{shib-access-control-rules}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{SP} Access Rules - Service Provider - Guides - {SWITCHaai} - {SWITCH}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb SP Access Rules - Service Provider - Guides - SWITCHaai - SWITCH:C\:\\Users\\Bill\\Zotero\\storage\\R7NUSRJF\\access-rules.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.switch.ch/aai/guides/sp/access-rules/
+      \endverb
+      \verb{url}
+      \verb https://www.switch.ch/aai/guides/sp/access-rules/
+      \endverb
+    \endentry
+    \entry{kotlin-cordapp-template}{software}{}
+      \list{publisher}{1}{%
+        {Corda}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{2}
+      \field{note}{original-date: 2017-07-05T15:59:56Z}
+      \field{title}{corda/cordapp-template-kotlin}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/corda/cordapp-template-kotlin
+      \endverb
+      \verb{url}
+      \verb https://github.com/corda/cordapp-template-kotlin
+      \endverb
+    \endentry
+    \entry{corda-services-101}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d9f67009920d2bc18f9dc2c25528c26e}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \strng{fullhash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \strng{bibnamehash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \strng{authorbibnamehash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \strng{authornamehash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \strng{authorfullhash}{d9f67009920d2bc18f9dc2c25528c26e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I’m in the mood to write a short and to the point post today. I’m actually curious how quickly I can get this published. So let’s go. This post is about Corda…}
+      \field{day}{19}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Corda Services 101}
+      \field{urlday}{23}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Bill\\Zotero\\storage\\2JGDZMD6\\corda-services-101.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://lankydan.dev/2018/08/19/corda-services-101
+      \endverb
+      \verb{url}
+      \verb https://lankydan.dev/2018/08/19/corda-services-101
+      \endverb
+    \endentry
+    \entry{angularjs}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{AngularJS} - Superheroic {JavaScript} {MVW} Framework}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://angularjs.org/
+      \endverb
+      \verb{url}
+      \verb https://angularjs.org/
+      \endverb
+    \endentry
+    \entry{bootstrap}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Bootstrap}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://getbootstrap.com/
+      \endverb
+      \verb{url}
+      \verb https://getbootstrap.com/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,41 @@
+\chapter{Conclusion \& Future Work}
+
+\section{Conclusion} \label{sec:conclusion}
+
+The work conducted in this thesis and the produced outcome was done in close collaboration with Simon M{\"u}ller \cite{mueller20}. The Swiss Educhain service built upon the foundational analysis conducted in \cite{Gres18}. A greenfield approach was taken to define the stakeholders, strict functional and non-functional requirements, as well as research to design and implement the Swiss Educhain service from scratch. While the foundational parts of the Swiss Educhain were researched, designed and implemented together with \cite{mueller20}, this thesis focused on the identity and access management (IAM) part and Simon M{\"u}ller's thesis on the diploma issuance and verification process \cite{mueller20}. \\
+The work conducted to create the Swiss Educhain service was of an exploratory nature. As such, the goals were initially defined only on a high-level with the first target being to define the requirements, research possible technologies or approaches, and most importantly, assess the feasibility of such a use case implementation. The requirements, stakeholders, governance and MVP (Minimum Viable Product) functionality were all derived and refined through consequent iterations of conceptual testing against basic and corner use cases. \\
+With the requirements well-defined the search for appropriate technical designs and solutions followed. A significant challenge was that any potential design needed to not only satisfy the individual requirements but also allow for tight integration between the IAM and verification functionality of Swiss Educhain. Two major decision points were choosing Corda as the private permissioned blockchain and SWITCH edu-ID as the Identity Provider. \\
+The resulting PoC (Proof-of-Concept) implementation satisfied all the MVP functionality requirements providing a robust set of features. Only a few requirements were not completely fulfilled mainly due to two reasons, either lack of time to further advance development, or due to the dependence of the Swiss Educhain service to external entities such as the University of Zurich and SWITCH edu-ID. In the next Section, the identified future work relative to the IAM part of the Swiss Educhain service is discussed.
+
+\section{Future Work} \label{sec:future-work}
+
+In the scope of this thesis and the implementation of the PoC, the main goals can be considered as completed. A few of the requirements were only partially or not fulfilled as analyzed in Section \ref{sec:requirements-fulfillment}. Future work for requirements not completely fulfilled:
+
+\begin{description}
+	\itemsep0em
+	\item\textbf{RQ9: Recipients are the only ones that can disclose issued credentials.} \\
+	Could be implemented in the future, but a feasibility study needs to be conducted first, to assess if enforcement is possible from a technical standpoint.
+	\item\textbf{RQ13: The governance model of the Swiss Educhain system must be defined.} \\
+	A candidate model has been proposed in Chapter \ref{ch:design} but it needs to be reviewed, updated if needed, and approved by the stakeholders.
+	\item\textbf{RQ23: Easy to install, configure, deploy, operate, monitor and maintain from an System Administrator's perspective.} \\
+	Appendix \ref{app:guidelines} provides simple guidelines around installation, configuration and deployment. Monitoring and maintenance were not examined as part of the PoC, best practices could be easier identified after Swiss Educhain is released and tested by users. Room for improvement exists in the installation, configuration and deployment process, automation of the various steps could be beneficial.
+\end{description} 
+
+During the system design and implementation phases different ideas on how the service could be improved came across. Due to time limitations and prioritization of implementing the MVP functionality they were not examined in depth or not at all. Valuable future work for Swiss Educhain in the field of IAM includes:
+
+\begin{description}
+	\item \textbf{UZH onboarding to SWITCH edu-ID.} \hfill \\
+	It is of essential importance that UZH is onboarded to SWITCH edu-ID, as this will unlock further possibilities, the features listed in Section \ref{ssec:eduid-features} and the high-level benefits for organizations described in \cite{eduid-for-organizations}.
+	\item \textbf{Creation of \texttt{issuer} value for the affiliation attribute.} \hfill \\
+	Because the \texttt{issuer} value is not available, as \texttt{Issuers} are identified all members of an organization with the \texttt{staff} or \texttt{faculty} affiliation. \texttt{Issuer's} access rights should be explicitly appointed to an individual with a pre-defined expiration date.
+	\item \textbf{Four eye principle implementation.} \hfill \\
+	The system as implemented in the PoC allows all \texttt{Issuers} to issue one or more diplomas without any check. The four-eye principle could be used to require an approval before a diploma is issued. This would minimize human errors and prevent malicious behavior from an Issuer.
+	\item \textbf{Diploma issuance on behalf of a specific organization.} \hfill \\
+	Further functionality must be implemented to restrict \texttt{Issuers} to be able to issue diplomas only on behalf of a certain organization. Identifying the organization can be done from the \texttt{swissEduIDLinkedAffiliation} attribute value which is of the form \texttt{<affiliation>@<organization>} (e.g. \texttt{staff@uzh.ch}).
+	\item \textbf{Improved audit trail.} \hfill \\
+	All actions performed in the Swiss Educhain service are traceable through the Corda distributed ledger. The identities of the users are represented by their public keys (new ones generated for each transaction). An automated process which creates a human-readable audit trail log should be implemented.
+	\item \textbf{Attribute quality.} \hfill \\
+	SWITCH edu-ID offers an assurance level for each attribute via the \texttt{swissEduIDAssuranceLevel} attribute. The option to require a minimum level of assurance for attributes used by Swiss Educhain should be also explored.
+	\item \textbf{MFA enforcement.} \hfill \\
+	Multi-factor authentication (MFA) can be enforced by SWITCH edu-ID if requested from the Service Provider, this feature should be utilized to increase security.
+\end{description}

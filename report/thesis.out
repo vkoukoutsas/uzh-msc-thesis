@@ -1,0 +1,71 @@
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Description of Work}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Thesis Outline}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Blockchain}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Identity}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Digital Identity}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Self-Sovereign Identity}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Identity and Access Management}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Access Control}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Access Control Models}{section.2.3}% 14
+\BOOKMARK [0][-]{chapter.3}{Related Work}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Swiss Educhain Previous Work}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{SWITCH}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{SWITCH edu-ID}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{Shibboleth}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{Corda}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Corda Accounts}{section.3.3}% 21
+\BOOKMARK [0][-]{chapter.4}{System Design}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Stakeholders}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Requirements}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.2.1}{Functional Requirements}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.2}{Non-Functional Requirements}{section.4.2}% 26
+\BOOKMARK [1][-]{section.4.3}{Architecture}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.3.1}{Candidate Solutions}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.2}{Architecture Solution}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.3}{MVP Functionality}{section.4.3}% 30
+\BOOKMARK [1][-]{section.4.4}{Identity and Access Management}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.1}{Identity Candidate Solutions}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.2}{Identity Chosen Solution}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.3}{Persistent ID}{section.4.4}% 34
+\BOOKMARK [2][-]{subsection.4.4.4}{Target Audience}{section.4.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.5}{Role Assignment}{section.4.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.6}{User Access Control}{section.4.4}% 37
+\BOOKMARK [2][-]{subsection.4.4.7}{Authorization Policy}{section.4.4}% 38
+\BOOKMARK [2][-]{subsection.4.4.8}{Application Accounts}{section.4.4}% 39
+\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 40
+\BOOKMARK [1][-]{section.5.1}{Integration with SWITCH edu-ID}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.1.1}{Shibboleth Installation and Configuration}{section.5.1}% 42
+\BOOKMARK [2][-]{subsection.5.1.2}{HTTPS Configuration}{section.5.1}% 43
+\BOOKMARK [2][-]{subsection.5.1.3}{Shibboleth Access Control}{section.5.1}% 44
+\BOOKMARK [2][-]{subsection.5.1.4}{Attributes}{section.5.1}% 45
+\BOOKMARK [1][-]{section.5.2}{Code Structure}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.3}{CorDapp}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.3.1}{Swiss Educhain Application Accounts}{section.5.3}% 48
+\BOOKMARK [2][-]{subsection.5.3.2}{Corda Accounts \046 Node Identity Service}{section.5.3}% 49
+\BOOKMARK [2][-]{subsection.5.3.3}{Educhain Account State}{section.5.3}% 50
+\BOOKMARK [2][-]{subsection.5.3.4}{Educhain Account Contract}{section.5.3}% 51
+\BOOKMARK [2][-]{subsection.5.3.5}{Educhain Account Flows}{section.5.3}% 52
+\BOOKMARK [1][-]{section.5.4}{Spring Boot}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.4.1}{AJP Connector}{section.5.4}% 54
+\BOOKMARK [2][-]{subsection.5.4.2}{Controller}{section.5.4}% 55
+\BOOKMARK [2][-]{subsection.5.4.3}{Frontend Interface}{section.5.4}% 56
+\BOOKMARK [0][-]{chapter.6}{Evaluation}{}% 57
+\BOOKMARK [1][-]{section.6.1}{Requirements Fulfillment}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{MVP Evaluation}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.3}{IAM Evaluation}{chapter.6}% 60
+\BOOKMARK [0][-]{chapter.7}{Conclusion \046 Future Work}{}% 61
+\BOOKMARK [1][-]{section.7.1}{Conclusion}{chapter.7}% 62
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 63
+\BOOKMARK [0][-]{chapter*.39}{Abbreviations}{}% 64
+\BOOKMARK [0][-]{chapter*.39}{List of Figures}{}% 65
+\BOOKMARK [0][-]{chapter*.40}{List of Tables}{}% 66
+\BOOKMARK [0][-]{appendix.A}{Installation and Configuration Guidelines}{}% 67
+\BOOKMARK [1][-]{section.A.1}{System Requirements}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.2}{Deployment}{appendix.A}% 69
+\BOOKMARK [0][-]{appendix.B}{Code Repository Structure}{}% 70
+\BOOKMARK [0][-]{appendix.C}{Contents of the CD}{}% 71

@@ -1,0 +1,154 @@
+\chapter{Evaluation}
+
+The goal of this chapter is to evaluate the Swiss Educhain requirements and their fulfillment in terms of functionality, security, privacy and verifiability. A short assessment of the Identity and Access Management (IAM) solution design and implementation is also provided.
+
+\section{Requirements Fulfillment} \label{sec:requirements-fulfillment}
+
+Based on the produced Proof-of-Concept, the individual requirements are evaluated for both the identity and verification part of Swiss Educhain. The PoC was developed to satisfy as many requirements as possible and most importantly to provide the Minimum Viable Product (MVP) functionality as defined in Section \ref{ssec:mvp-requirements}.
+
+This is joint text with Simon M{\"u}ller \cite{mueller20}.
+
+Evaluation of individual requirements:
+
+\begin{description}[leftmargin=40pt]
+	\itemsep0em
+	\item[RQ01] - Access controls are in place that read the \texttt{swissEduIDLinkedAffiliation} attribute and allow issuing certificates if the value is \texttt{staff@uzh.ch} or \texttt{faculty@uzh.ch}.
+	
+	\item[RQ02] - Only the \texttt{Issuer} and the \texttt{Recipient} of a diploma have access to the data.
+	
+	\item[RQ03] - Frontend abstracts all technical complexities included in the issuance process.
+	
+	\item[RQ04] - There is a dedicated button for batched diploma issuance.
+	
+	\item[RQ05] - The smart contract is on a public blockchain and the verification frontend is accessible by anyone.
+	
+	\item[RQ06] - Anyone can verify a diploma without the use of a specific frontend, only by hashing the file and calling the contract.
+	
+	\item[RQ07] - Any \texttt{Recipient} can download their issued diploma(s).
+	
+	\item[RQ08] - Each Educhain user is issued a unique identifier for the Swiss Educhain service from SWITCH edu-ID, which is the \texttt{persistentID} attribute.
+	
+	\item[RQ09] - This requirement is partially fulfilled because the \texttt{Issuers} could disclose the \texttt{Recipients'} issued credentials without their approval. Even if the diploma state would be leaked, there is no way to know to whom the diploma was issued. It should be technically enforced that the \texttt{Recipients} are the only one that can disclose their credentials.
+	
+	\item[RQ10] - Users' accounts are managed from the SWITCH edu-ID identity provider and not from the issuing organizations.
+	
+	\item[RQ11] - When a user links their account through an issuing organization's identity provider the issuing organization account can only be created if the identity verification has been completed which includes registering in person. This ensures there is a chain of trust through the linked affiliations.
+	
+	\item[RQ12] - Diplomas can be revoked by using the blacklisting functionality for the diploma in question.
+	
+	\item[RQ13] - This requirement is partially fulfilled because in Section \ref{ssec:design-governance-model} a proposed governance process is described. This model has not been reviewed or accepted by all the stakeholders participating in the Swiss Educhain project, it might be updated in the future to meet their needs.
+	
+	\item[RQ14] - In Corda DLT all transactions are recorded in the ledger and cannot be individually deleted or tampered with by any party.
+	
+	\item[RQ15] - Any \texttt{Recipient} can download their issued diploma(s).
+	
+	\item[RQ16] - Corda and Ethereum both technically enable multi-sig transactions.
+	
+	\item[RQ17] - The system processes data at all levels in a text format.
+	
+	\item[RQ18] - This requirement is partially fulfilled because Swiss Educhain accounts are updated automatically each time a user logs in with the latest values of the SWITCH edu-ID account attributes. The nature and the extent of the possible changes to a user's account are dependent on and limited by the account management capabilities offered by SWITCH edu-ID.
+	
+	\item[RQ19] - The process for an issuing organization to utilize Swiss Educhain is defined and dependent on the organization's integration with the SWITCH edu-ID identity management system.
+	
+	\item[RQ20] - Only users associated with at least one issuing organization are allowed to use the Swiss Educhain service.
+	
+	\item[RQ21] - Verification is performed over a public blockchain and is accessible by everyone.
+	
+	\item[RQ22] - The user can easily register, access and use the service via a single web interface.
+	
+	\item[RQ23] - This requirement is partially fulfilled because it uses open source technologies with widely available documentation, but improvements can be implemented to make the building and deployment process simpler.
+	
+	\item[RQ24] - The main technologies used by Swiss Educhain (Apache Webserver, Shibboleth, Spring Boot, Java) are freely available, popular, well-established and mature.
+	
+	\item[RQ25] - The main technologies used by Swiss Educhain (Apache Webserver, Shibboleth, Spring Boot, Java) can be operated in most Unix distributions or Windows versions.
+	
+	\item[RQ26] - This requirement is partially fulfilled because the application can be easily integrated and is cross-platform compatible as it is built on Java. But, the identity part of the Swiss Educhain service needs to be manually configured and it requires a Service Provider onboarding to the SWITCH edu-ID registry.
+	
+	\item[RQ27] - The Swiss Educhain service does not require any specific state-of-the-art technology to be operational. 
+	
+	\item[RQ28] - This requirement is fulfilled, but as already mentioned the organizations need to onboard to SWITCH edu-ID.
+	
+	\item[RQ29] - The high-level access control is defined through Shibboleth and provides access to the service only to either \texttt{Issuers} or \texttt{Recipients} based on their accounts' disclosed attributes from SWITCH edu-ID.
+	
+	\item[RQ30] - Both Corda and Spring Boot can be easily extended with existing functionality.
+	
+	\item[RQ31] - Corda does not broadcast by default. Data are disclosed only on a need-to-know basis.
+	
+	\item[RQ32] - All transactions are signed, and the public key of the signers is known. Further steps are needed to map the public key to the Educhain account.
+	
+\end{description}
+
+This ends the text jointly written with Simon M{\"u}ller \cite{mueller20}.
+
+As seen in the list above, only five out of thirty-two requirements were not completely fulfilled and only partially satisfied. The non-fulfillment of RQ18 and RQ26 has been accepted as a technical limitation deriving from the choice of SWITCH edu-ID as the identity provider for Swiss Educhain. Future work to fulfill requirements RQ9, RQ13 and RQ23 is proposed in Section \ref{sec:future-work}.
+
+\section{MVP Evaluation}
+
+The MVP functionality defined in Section \ref{ssec:mvp-requirements} was fully implemented in the PoC implementation. An evaluation of the identity management relevant parts is provided, the data structures part is omitted as it is evaluated thoroughly in \cite{mueller20}. Functionality implemented and its relation to the MVP requirements:
+
+\textbf{Identity Management}
+\begin{description}[leftmargin=15pt]
+	\itemsep0em
+	\item - \textbf{Two types of identities should be supported, Issuers and Recipients.} \\
+	The identities are supported and the role distinction is based on the \texttt{isAllowedToIssue} field in the \texttt{EduChainAccountState}. 
+    \item - \textbf{Define process of creating a new account.} \hfill \\
+    A new SWITCH edu-ID can be easily created by a user in \url{(test).eduid.ch}.
+	\item - \textbf{Define data structures for the Educhain account data.} \hfill \\
+	The Educhain account data are represented as a Corda state in \texttt{EduChainAccountState} and is logically mapped to a Corda account as shown in Figure \ref{fig:identity-mapping}. 
+	\item - \textbf{Define access control rules for general access to the service.} \hfill \\
+	Service-level access control has been defined using attributes \texttt{swissEduIDLinkedAffiliation} and \texttt{matriculationNumber}. It is enforced by Apache using the configuration shown in Listing \ref{lst:apache-shib-access-control}.
+	\item - \textbf{Define application level access control for Issuers.} \hfill \\
+	By default, all users are \texttt{Recipients}, elevated access rights are provided to \texttt{Issuers} by checking the \texttt{swissEduIDLinkedAffiliation} attribute for the values \texttt{staff@uzh.ch} or \texttt{faculty@uzh.ch} inside the CorDapp flow execution. The \texttt{isAllowedToIssue} value is updated accordingly in the \texttt{EduChainAccountState} state.
+	\item - \textbf{Fetch Student details to create Corda identities.} \hfill \\
+	The necessary attributes \texttt{commonName}, \texttt{mail}, \texttt{matriculationNumber}, \texttt{persistentID} and \texttt{swissEduIDLinkedAffiliation} are retrieved from SWITCH edu-ID.
+	\item - \textbf{Detect student detail changes and update Educhain account automatically.} \hfill \\
+	Detail changes are automatically detected and updated, if needed, by the \texttt{load-account} endpoint which is called every time a new session is initiated, or the webpage is refreshed.
+\end{description}
+%\subsubsection{Data Structures}
+%\begin{description}[leftmargin=15pt]
+%	\itemsep0em
+%	\item - \textbf{Define an appropriate data structure for storing data related to a diploma.} \hfill \\
+%	
+%	\item - \textbf{Allow digital diploma hashing and publishing on a public blockchain.} \hfill \\
+%	\item - \textbf{Allow existing diplomas to be digitally signed and published.} \hfill \\
+%	\item - \textbf{Publish diplomas in batch.} \hfill \\
+%	\item - \textbf{Blacklist diplomas.} \hfill 
+%\end{description}
+\textbf{Web Interface}
+\begin{description}[leftmargin=15pt]
+	\itemsep0em	
+	\item - \textbf{Issue diploma by uploading JSON.} \hfill \\
+	Feature has been implemented and can be executed through the \texttt{Issue} button.
+	\item - \textbf{View received diplomas (all users).} \hfill \\
+	Received diplomas can be viewed by all users in the \texttt{My Received Diplomas} part of the frontend as shown in Figure \ref{fig:educhain-frontend}.
+	\item - \textbf{View issued diplomas (only Issuers).} \hfill \\
+	Issued diplomas can be viewed only by \texttt{Issuers} in the \texttt{My Issued Diplomas} part of the frontend as shown in Figure \ref{fig:educhain-frontend}.
+	\item - \textbf{Issuer should be able to perform all actions from the frontend.} \hfill \\
+	All actions can be executed from the web interface through the single webpage and the provided buttons. 
+	\item - \textbf{Provide a simple login and logout interface.} \hfill \\
+	Login is provided by \texttt{test.eduid.ch} where the user is redirected automatically after visiting \url{https://educhain.csg.uzh.ch/app/} and logout is provided by the \texttt{Logout} button on the top right corner of the web interface.
+\end{description}
+\textbf{Operations}
+\begin{description}[leftmargin=15pt]	
+	\itemsep0em
+	\item - \textbf{Define build, installation and deployment process.} \hfill \\
+	The process was defined, and the guidelines are provided in Appendix \ref{app:guidelines}.
+	\item - \textbf{Encryption for data in transit and data at rest.} \hfill \\
+	Encryption is used end-to-end in all the system components (as shown in Figure \ref{fig:arch-educhain}) for data in transit or at rest.
+	\item - \textbf{Cross-platform compatibility.} \hfill \\
+	Cross-platform compatibility is achieved partially for all the components except integration with SWITCH edu-ID which is an accepted limitation. 
+\end{description}
+
+
+\section{IAM Evaluation} \label{sec:iam-evaluation}
+
+The chosen IAM solution is for Swiss Educhain to participate as a Service Provider (SP) in the SWITCH identity federation as explained in detail in Section \ref{ssec:iam-solution}. Users do not assume any role explicitly, they use the attributes of their account to gain the access required to assume the conceptual role (\texttt{Issuer} or \texttt{Recipient}). A pure ABAC (Attribute Based Access Control) model is followed with two levels of authorization service-level and application-level which determine who should access the service and once authorized to access what actions are allowed to be performed respectively as defined in Section \ref{ssec:educhain-authorization-policy}.\\
+The integration with SWITCH and the implementation of application-level accounts was a complex process that required well-defined scenarios, clear requirements and a solution architecture consisting of tightly coupled components. Long term benefits, security, privacy and verifiability were prioritized over faster solutions such as creating a custom application level IdP or using a third-party service to integrate with public IdPs. Significant advantages of the participation in the SWITCH federation and advanced features that can be utilized are listed in Section \ref{ssec:iam-candidate-solutions}. \\
+Apart from the advantages certain limitations need to be taken into consideration. Swiss Educhain can only consume data that is available, can be produced in the form of attributes from the Attribute Providers and are supported by SWITCH edu-ID. To create a new value for existing attributes (e.g. \texttt{issuer} for \texttt{swissEduIDLinkedAffiliation}) the service must inform the Organization and the edu-ID to adapt for such a change. There is a strong dependency on the SWITCH federation for new feature(s) implementation, for the quality of provided services and interfederation interoperability adoption. An important drawback of the Swiss Educhain implementation is the difficulty to add new roles and adapt if the basic use case scenario changes in the future. While the presented solution fulfills entirely the requirements and implements all the necessary functionality for the MVP, adding a new role requires several adaptations in the Resource Registry, the Shibboleth and Apache configuration as well as in the Spring Boot and CorDapp source code. \\
+%To conclude,  the IAM implementation successfully fulfilled all the functionality requirements identified for the MVP as they are described in Section \ref{ssec:mvp-requirements}. 
+
+%The chosen implementation approach provides advantages and disadvantages which are listed in Section \ref{ssec:iam-candidate-solutions}. 
+
+
+%This allows for the service provider to not create and manage roles and user groups but evaluate in real-time the linked affiliation attributes. This approach fulfills all requirement and is acceptable for a Service Provider, but would be too simplistic for any system that implements its own idP solution and needs to manage the lifecycle of the identities. In the latter scenario RBAC in combination with ABAC should be used to provide policies to be defined per role and users would assume the roles relevant to their activities, attributes could be used to create a more fine-grained policy and determine access to specific resources for a certain time frame or 
+

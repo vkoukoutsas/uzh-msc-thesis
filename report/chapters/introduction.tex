@@ -1,0 +1,86 @@
+\chapter{Introduction} \label{ch:introduction}
+
+Academic certificates have major relevance in the labor market, signaling capability, and the level of education and skills of the recipient. Unfortunately, recent years have seen an increase in fraud, ranging from inflating academic grades to fake diplomas. Even several organizations focus on providing illegitimate academic degrees and diplomas (also called diploma mills). Estimating globally the number of individuals with fake diplomas is a hard task. In 2015, estimations indicated that about 41\% of job applicants presented falsified information
+about their education in the US (United States) \cite{musee}. In 2017, it is estimated that about 500 fake doctoral diplomas are sold monthly in the US \cite{wicked-problem}. Thus, the release and verification of academic certificates is a known problem, tackled by academia \cite{educhain-proposal}, \cite{educhain-architecture}, \cite{mit-digital-diploma}, \cite{unic-certificates}, and also private
+companies.
+
+Public blockchains can be considered tamper-proof, transparent, without any centralized control, and they offer applications to a wide range of domains \cite{educhain-architecture}. The main use-case applied to academic certificates is the Proof-of-Existence (PoE), e.g., by first generating a unique cryptographic hash digest of a certificate and then publishing that hash to a public blockchain,
+effectively timestamping the certificate, thus, proving the existence of exactly this certificate, without leaking information about its content, typically the certificate's data. Recognizing the potential benefits of such a blockchain-based approach, prior work presented the initial requirements for a solution targeted at the University of Zurich (UZH) \cite{educhain-architecture}, an integral part of such a solution is identity and access management (IAM). 
+
+\section{Motivation}
+
+Providing a trustworthy, decentralized, and publicly available data storage solution, public blockchains have
+become a disruptive technology that has seen interest across academia and industries alike. Many
+interesting projects (blockchain-based or otherwise) have explored the possibility to digitally verify diplomas
+to counteract the trend of fake degrees.
+
+Blockcerts \cite{mit-digital-diploma} is an initiative by the Massachusetts Institute of Technology (MIT) to create an
+open standard for issuing and verifying credentials on the Bitcoin blockchain. The system is now in use
+at MIT \cite{mit-digital-diploma} and empowers graduates to use the service through a mobile app \cite{blockcerts}. Similar to that
+approach, the National Research and Education Network of Greece (GRNET) \cite{cardano-diplomas} also persists diploma
+hashes to a public blockchain. However, the GRNET project [16] differs from Blockcerts because not
+only hashes of diplomas can be stored, but also the entire verification process. Therefore, verification
+requests, successful or unsuccessful proof and the forwarding of the result to its requester are steps
+that will be stored. Another mentionable initiative is led by the Trust::Data Consortium \cite{mit-trust} from MIT,
+aiming to provide safe distributed computation, enabling privacy-preserving data sharing \cite{mit-trust}. Further, University of Nicosia (UNIC) \cite{unic-certificates} initiated a blockchain-based project to issue and verify academic certificates.
+UNIC aims to digitize and decentralize their internal processes issuing their first academic certificates
+as a Proof-of-Concept (PoC).
+
+Generally, the same approach can be found in almost all related and blockchain-based work of academic certification. Most projects only persist the hash of the certificate into the public blockchain, while the certificate data is then sent to the recipient, who can share it with others, such as an employer. These credentials can be used to create the same fingerprint that can be found in the blockchain and, thus, verify its veracity. The amount of related work tackling the problem of academic certification highlights its necessity.
+
+The main goal of this master's thesis is to design and implement a suitable private DL (Distributed Ledger) solution with an integrated identity and access management module. The resulting solution is intended to be used in the Swiss Educhain service \cite{educhain-proposal} to satisfy the main requirement of the various stakeholders identified in Section \ref{sec:stakeholders}, which is the issuance and verification of digital certificates utilizing blockchain technology. This master's thesis provides a blockchain-based identity management for the individual user roles described in Section \ref{ssec:iam-role-assignment}.
+
+The \textbf{key goals} for this thesis are:
+
+\begin{description}
+	\itemsep0em
+	\item \textbf{Requirements Engineering:} \\ 
+	Elicit requirements by evaluating the current process of certificate issuance. Based on this process, propose improvements and a system that could be used by multiple educational institutions, recipients and verifiers with the new Swiss Educhain design.
+	
+	\item \textbf{Investigate the suitability of multiple Blockchain platforms for blockchain-based identity management:} \\
+	The comparison and evaluation of different identity management and DLs \cite{corda-website}, \cite{hyperledger-wiki} should be documented and support the decision for a specific platform and architecture. 
+	
+	\item \textbf{Research the individual requirements with regards to Privacy, Security and Verifiability:} \\
+	With regard to the proposed Swiss Educhain IAM requirements and the publication of hashes, evaluate from a privacy, security and verifiability perspective, evaluate potential risks and problems, but also advantages. 
+	
+	\item \textbf{Design and Architecture:} \\
+	Design of identity management and application accounts with a good user experience (UX) in mind. Create an architecture fulfilling previously determined properties (e.g. identities owned by the Recipient).
+	
+	\item \textbf{Proof-of-Concept (PoC) Evaluation:} \\
+	Evaluate the implemented approach considering its prior defined properties and desired functionality.
+	
+	\item \textbf{Code Delivery and Testing:} \\
+	Source code needs to be well-documented, open-source and readable. The PoC is to be tested with appropriate methods.
+	
+	\item \textbf{Documentation and Report:} \\
+	The steps of the initial analysis, its results, design decisions, prototyping, and the evaluation approach as well as its outcome are documented in this thesis report.
+\end{description}
+
+Furthermore, where possible the system design and implementation should try to follow an approach that allows re-usability, easy-of-use and globally available technologies.
+
+
+\section{Description of Work}
+
+The focus of this master thesis is the design and implementation of a suitable identity and access management (IAM) in a blockchain-based certificate issuance process \cite{educhain-proposal}. This work is done in close cooperation with Simon M{\"u}ller's master's thesis \cite{mueller20}, that is focusing on the aspect of the verification process in the Swiss Educhain process. \\
+
+In the first stage, research is conducted on the relevant related work on identity and access management and research work within academia. The already elicited requirements such as the ones described in Table \ref{tab:educhain-requirements-jerinas} are evaluated from a technical perspective and complemented by new requirements identified belonging to the scope of the Swiss Educhain project. Moreover, the first stage includes the evaluation and possibilities to integrate existing legacy systems and identities with such a new Swiss Educhain service \cite{educhain-proposal}. \\
+
+The second stage concerns the design and implementation of an application that can be used by the \texttt{Issuer} (e.g. an UZH employee) to generate academic certificates and publish them on a private and public blockchain. The architecture was discussed during periodical meetings with the advisor to examine the feasibility of the proposal; additionally a close contact was maintained continuously with the related master thesis on "Design and Implementation of a Data-Agnostic Structure for Blockchain Proof-of-Existence". The outcome is a working PoC that adheres to the designed solution with a detailed description and reasoning of any implementation decisions taken. \\
+
+The final stage of this master thesis covers an evaluation with respect to its achieved properties and a discussion of the implemented PoC. The results are contrasted to the thesis goals. This report includes the motivation and problem description, background information, related work, design decisions, implementation details, evaluation, and conclusion.
+
+
+\section{Thesis Outline}
+
+The thesis report is structured as follows: 
+\begin{description}
+	\itemsep0em
+	\item\textbf{Chapter 2} shortly visits fundamental blockchain concepts and explains in detail background identity concepts.
+	\item\textbf{Chapter 3} details related work, such as, the SWITCH identity federation, key concepts of the Corda distributed ledger, and the Corda Accounts library. 
+	\item\textbf{Chapter 4} presents the design of the Swiss Educhain service, enumerating different options and the chosen solution. It also includes the requirements, stakeholders and roles identified, as well as the reasoning behind all the decisions made.
+	\item\textbf{Chapter 5} presents the implementation details for the identity and access management (IAM) of the Swiss Educhain service.
+	\item\textbf{Chapter 6} evaluates the individual requirements against the implemented solution and provides a high-level evaluation of the IAM solution.
+	\item\textbf{Chapter 7} concludes this work with final considerations and identifies future IAM work.
+	\item\textbf{Appendix A} provides installation and configuration guidelines for Swiss Educhain.
+	\item\textbf{Appendix B} presents a simplified directory tree structure of the Swiss Educhain code.
+\end{description}
